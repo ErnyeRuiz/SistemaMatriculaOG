@@ -67,13 +67,69 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Pages\Login.aspx" />
+    <Content Include="Pages\Logout.aspx" />
+    <Content Include="Pages\PP_Estudiantes.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master_DirCarrera.Master.cs">
+      <DependentUpon>Master_DirCarrera.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master_DirCarrera.Master.designer.cs">
+      <DependentUpon>Master_DirCarrera.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master_Egresados.Master.cs">
+      <DependentUpon>Master_Egresados.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master_Egresados.Master.designer.cs">
+      <DependentUpon>Master_Egresados.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master_Estudiantes.Master.cs">
+      <DependentUpon>Master_Estudiantes.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master_Estudiantes.Master.designer.cs">
+      <DependentUpon>Master_Estudiantes.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Master_Funcionarios.Master.cs">
+      <DependentUpon>Master_Funcionarios.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Master_Funcionarios.Master.designer.cs">
+      <DependentUpon>Master_Funcionarios.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PP_Estudiantes.aspx.cs">
+      <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PP_Estudiantes.aspx.designer.cs">
+      <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Pages\Master_Estudiantes.Master" />
+    <Content Include="Pages\Master_DirCarrera.Master" />
+    <Content Include="Pages\Master_Egresados.Master" />
+    <Content Include="Pages\Master_Funcionarios.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -84,6 +140,16 @@
   <ItemGroup>
     <Folder Include="css\" />
     <Folder Include="img\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades.csproj">
+      <Project>{f24a63a0-bf5f-4cbe-b1b5-17acfe971f1f}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Negocio\Negocio.csproj">
+      <Project>{651748cd-2478-4a67-83c8-ba93794a0162}</Project>
+      <Name>Negocio</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
