@@ -1,8 +1,9 @@
-﻿using Microsoft.Data.SqlClient;
+﻿using Entidades;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -120,6 +121,69 @@ namespace Datos
                 throw ex;
             }
         }
+
+        #region Sebas
+
+        #region Login
+        //Validar  usuario
+        public string ValidarUsuario(string cedula, string password)
+        {
+
+            string Mensaje = "";
+            conexion.Open();
+            SqlCommand command = new SqlCommand("ValidarLogin", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@Cedula", cedula);
+            command.Parameters.AddWithValue("@Contrasena", password);
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Mensaje = reader["Respuesta"].ToString();
+                }
+            }
+            conexion.Close();
+
+            return Mensaje;
+        }
+
+
+        //Traer Usuario
+        public Usuarios TraerUsuario(string cedula)
+        {
+            conexion.Open();
+            SqlCommand command = new SqlCommand("TraerUsuario", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@Cedula", cedula);
+            Usuarios user = new Usuarios();
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    
+                    user.Cedula1= reader["Cedula"].ToString();
+                    user.Contrasena1= reader["Contrasena"].ToString();
+                    user.IdRol1 = Convert.ToInt32(reader["IdRol"].ToString());
+                }
+            }
+            conexion.Close();
+
+            return user;
+        }
+
+        #endregion
+
+        #region RegistrarUsuario
+        //Registrar Usuario
+
+        //Registrar Estudiante
+
+        #endregion
+
+        #endregion
+
     }
-        
+
 }

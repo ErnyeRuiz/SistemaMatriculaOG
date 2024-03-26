@@ -67,9 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Img\logo.png" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Logout.aspx" />
+    <Content Include="Pages\PP_DirCarrera.aspx" />
+    <Content Include="Pages\PP_Egresados.aspx" />
     <Content Include="Pages\PP_Estudiantes.aspx" />
+    <Content Include="Pages\Solicitud_Registro.aspx" />
+    <Content Include="Pages\PP_Registro.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -115,12 +120,40 @@
     <Compile Include="Pages\Master_Funcionarios.Master.designer.cs">
       <DependentUpon>Master_Funcionarios.Master</DependentUpon>
     </Compile>
+    <Compile Include="Pages\PP_DirCarrera.aspx.cs">
+      <DependentUpon>PP_DirCarrera.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PP_DirCarrera.aspx.designer.cs">
+      <DependentUpon>PP_DirCarrera.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PP_Egresados.aspx.cs">
+      <DependentUpon>PP_Egresados.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PP_Egresados.aspx.designer.cs">
+      <DependentUpon>PP_Egresados.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\PP_Estudiantes.aspx.cs">
       <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\PP_Estudiantes.aspx.designer.cs">
       <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Solicitud_Registro.aspx.cs">
+      <DependentUpon>Solicitud_Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Solicitud_Registro.aspx.designer.cs">
+      <DependentUpon>Solicitud_Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PP_Registro.aspx.cs">
+      <DependentUpon>PP_Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\PP_Registro.aspx.designer.cs">
+      <DependentUpon>PP_Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -138,8 +171,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="css\" />
-    <Folder Include="img\" />
+    <Folder Include="Css\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
