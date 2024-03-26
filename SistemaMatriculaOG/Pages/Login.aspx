@@ -15,11 +15,38 @@
 
 </head>
 <body>
-    <form id="form1" runat="server">
+    <form id="form1" style="text-align: center;margin-left:20%;margin-top:5%;" runat="server">
         <%-- Informacion sobre el formulario del login --%>
-        <h1>
-            Inicio de sesión
-        </h1>
+        <div class="bg-primary" style="color:white; margin-left: 5%; width: 60%;border-radius:10px">
+            <div style="padding-bottom:2%">
+                <img src="../Img/logo.png" style="width:50%;height:50%;border-radius:27px;padding-top:2%">
+            </div>
+            <div>
+                <asp:Label ID="lblCedula" style="font-size:20px;" runat="server" Text="Cédula"></asp:Label>
+            </div>
+            <div>
+                <asp:TextBox ID="txtCedula" style="font-size:20px;" runat="server"></asp:TextBox>
+            </div>
+            <div>
+                <asp:Label ID="lblCotrasenia" style="font-size:20px;" runat="server" Text="Contraseña"></asp:Label>
+            </div>
+            <div>
+                <asp:TextBox ID="txtcontrasenia" Type="password" style="font-size:20px;" runat="server"></asp:TextBox>
+            </div>
+
+            <div class="row" style="margin-top:2%;padding-bottom:2%;">
+                <div style="width:150px;margin-right:2%;margin-left:30%">
+                    <asp:Button Class="btn btn-info" Style="color: white;font-size:20px;" ID="btnIngresar" OnClick="btnIngresar_Click" runat="server" Text="Inicio de sesión" />
+                </div>
+                <div style="width:150px;">
+                    <a href="Solicitud_Registro.aspx" class="btn btn-info" style="color: white;font-size:20px;" runat="server">Registrarme</a>
+                </div>
+            </div>
+            <div style="padding-bottom:2%">
+                <a class="" style="color:white;font-size:20px;" href="#.aspx">¿Recuperar contraseña?</a>
+            </div>
+
+        </div>
     </form>
 </body>
 
