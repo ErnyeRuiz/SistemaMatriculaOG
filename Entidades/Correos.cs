@@ -24,7 +24,7 @@ namespace Entidades
                 string destinatarioEmail = CorreoUsuario;
 
                 // Configurar el cliente SMTP
-                SmtpClient clienteSmtp = new SmtpClient("smtp.gmail.com", 589);
+                SmtpClient clienteSmtp = new SmtpClient("smtp.gmail.com", 587);
                 clienteSmtp.EnableSsl = true;
                 clienteSmtp.UseDefaultCredentials = false;
                 clienteSmtp.Credentials = new NetworkCredential(Email, Contrasenia);

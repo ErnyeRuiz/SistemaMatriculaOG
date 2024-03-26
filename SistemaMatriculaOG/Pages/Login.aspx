@@ -19,19 +19,19 @@
         <%-- Informacion sobre el formulario del login --%>
         <div class="bg-primary" style="color:white; margin-left: 5%; width: 60%;border-radius:10px">
             <div style="padding-bottom:2%">
-                <img src="../Img/logo.png" style="width:50%;height:50%;border-radius:27px;padding-top:2%">
+                <img src="../Img/logo.png" style="width:50%;height:50%;border-radius:27px;padding-top:2%"/>
             </div>
             <div>
                 <asp:Label ID="lblCedula" style="font-size:20px;" runat="server" Text="Cédula"></asp:Label>
             </div>
             <div>
-                <asp:TextBox ID="txtCedula" style="font-size:20px;" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtCedula" style="font-size:20px;" runat="server" MaxLength="15"></asp:TextBox>
             </div>
             <div>
                 <asp:Label ID="lblCotrasenia" style="font-size:20px;" runat="server" Text="Contraseña"></asp:Label>
             </div>
             <div>
-                <asp:TextBox ID="txtcontrasenia" Type="password" style="font-size:20px;" runat="server"></asp:TextBox>
+                <asp:TextBox ID="txtcontrasenia" Type="password" style="font-size:20px;" runat="server" MaxLength="16"></asp:TextBox>
             </div>
 
             <div class="row" style="margin-top:2%;padding-bottom:2%;">
@@ -39,7 +39,7 @@
                     <asp:Button Class="btn btn-info" Style="color: white;font-size:20px;" ID="btnIngresar" OnClick="btnIngresar_Click" runat="server" Text="Inicio de sesión" />
                 </div>
                 <div style="width:150px;">
-                    <a href="Solicitud_Registro.aspx" class="btn btn-info" style="color: white;font-size:20px;" runat="server">Registrarme</a>
+                    <a href="Solicitud_Registro.aspx" class="btn btn-info" style="color: white;font-size:20px;" runat="server">Registrarse</a>
                 </div>
             </div>
             <div style="padding-bottom:2%">
