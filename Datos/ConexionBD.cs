@@ -166,6 +166,7 @@ namespace Datos
                     user.Cedula1= reader["Cedula"].ToString();
                     user.Contrasena1= reader["Contrasena"].ToString();
                     user.IdRol1 = Convert.ToInt32(reader["IdRol"].ToString());
+                    user.P_Ingreso1 = Convert.ToBoolean(reader["P_Ingreso"].ToString());
                 }
             }
             conexion.Close();
@@ -177,8 +178,89 @@ namespace Datos
 
         #region RegistrarUsuario
         //Registrar Usuario
+        public void RegistroUsuario(string cedula, string password,int rol)
+        {
+            conexion.Open();
+            SqlCommand command = new SqlCommand("RegistrarUsuario", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@Cedula", cedula);
+            command.Parameters.AddWithValue("@Contrasena", password);
+            command.Parameters.AddWithValue("@IDRol", rol);
+
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+
+        }
 
         //Registrar Estudiante
+        public void RegistroEstudiante(string cedula,string Nombre,string Apellido1,string Apellido2
+            ,string Nacionalidad,string Correo,string telefono,DateTime FechaNac,int IDCarrera)
+        {
+            conexion.Open();
+            SqlCommand command = new SqlCommand("RegistrarEstudiante", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@Cedula", cedula);
+            command.Parameters.AddWithValue("@Nombre",Nombre);
+            command.Parameters.AddWithValue("@Apellido1",Apellido1);
+            command.Parameters.AddWithValue("@Apellido2",Apellido2);
+            command.Parameters.AddWithValue("@Nacionalidad",Nacionalidad);
+            command.Parameters.AddWithValue("@Correo",Correo);
+            command.Parameters.AddWithValue("@Telefono",telefono);
+            command.Parameters.AddWithValue("@FechaNac",FechaNac);
+            command.Parameters.AddWithValue("@IDCarrera",IDCarrera);
+
+
+
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+
+        }
+
+        //Registrar solicitud
+        public void RegistroSolicitudDeRegistro(string cedula, int IDEstadoSolicitud)
+        {
+            conexion.Open();
+            SqlCommand command = new SqlCommand("IngresarSoliRegistro", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@CedulaEstudiante", cedula);
+            command.Parameters.AddWithValue("@idEstadoSolicitud", IDEstadoSolicitud);
+
+            command.ExecuteNonQuery();
+
+            conexion.Close();
+
+        }
+
+        //Traer lista de carreras
+        public List<Carreras> TraerCarreras()
+        {
+
+            List<Carreras> lst= new List<Carreras>();
+            conexion.Open();
+            SqlCommand command = new SqlCommand("TraerCarreras", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Carreras carrera = new Carreras();
+                    carrera.IdCarrera1=Convert.ToInt32(reader["IdCarrera"].ToString());
+                    carrera.NombreCarrera1 = reader["NombreCarrera"].ToString();
+                    lst.Add(carrera);
+                }
+            }
+            conexion.Close();
+
+            return lst;
+        }
+
+
 
         #endregion
 
