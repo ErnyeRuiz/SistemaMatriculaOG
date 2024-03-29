@@ -35,7 +35,4 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\obj\D
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
-C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\EntityFramework.dll
-C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\EntityFramework.xml
-C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config

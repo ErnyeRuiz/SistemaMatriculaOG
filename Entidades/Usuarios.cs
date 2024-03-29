@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,14 +9,15 @@ namespace Entidades
 {
     public class Usuarios
     {
-        string Cedula; //primary key
-        string Contrasena; //not null
-        int IdRol; //not null foreign key
-        bool P_Ingreso; //not null bit
-
-        public string Cedula1 { get => Cedula; set => Cedula = value; }
-        public string Contrasena1 { get => Contrasena; set => Contrasena = value; }
-        public int IdRol1 { get => IdRol; set => IdRol = value; }
-        public bool P_Ingreso1 { get => P_Ingreso; set => P_Ingreso = value; }
+        string _Cedula; //primary key
+        string _Contrasena; //not null
+        int _IdRol; //not null foreign key
+        bool _P_Ingreso; //not null bit
+        //[Key]
+        public string Cedula { get => _Cedula; set => _Cedula = value; }
+        public string Contrasena { get => _Contrasena; set => _Contrasena = value; }
+        public int IdRol { get => _IdRol; set => _IdRol = value; }
+        public bool P_Ingreso { get => _P_Ingreso; set => _P_Ingreso = value; }
+        //public virtual Roles Roles { get; set; }
     }
 }

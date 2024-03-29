@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ namespace Entidades
 {
     public class Estudiante
     {
+     //   [Key]
         public string CedulaEstudiante { get; set; } // primary key
         public string NombreEstudiante { get; set; } // not null
         public string Apellido1 { get; set; } // not null
@@ -18,5 +20,10 @@ namespace Entidades
         public DateTime FechaNacimiento { get; set; } // null
         public DateTime FechaRegistro { get; set; } = DateTime.Now; // default getdate()
         public string CarreraId { get; set; } // foreign key
+
+        //public virtual Carreras Carreras { get; set; }  
+        //public ICollection<SolicitudesGraduacion> solicitudesGraduacions { get; set; }
+        //public ICollection<SolicitudesRegistro> solicitudesRegistro { get; set; }
+        //public ICollection<EmpresasEstudiante> empresasEstudiantes { get; set; }
     }
 }

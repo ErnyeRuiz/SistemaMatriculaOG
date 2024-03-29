@@ -16,3 +16,4 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config

@@ -40,19 +40,19 @@ namespace SistemaMatriculaOG
                     {
                         Session["Usuario"] = user;
 
-                        if (user.IdRol1 == 1)
+                        if (user.IdRol == 1)
                         {
                             Response.Redirect("PP_Estudiantes.aspx");
                         }
-                        else if (user.IdRol1 == 2)
+                        else if (user.IdRol == 2)
                         {
                             Response.Redirect("PP_Egresados.aspx");
                         }
-                        else if (user.IdRol1 == 3) 
+                        else if (user.IdRol == 3) 
                         {
                             Response.Redirect("PP_DirCarrera.aspx");
                         }
-                        else if (user.IdRol1 == 4) 
+                        else if (user.IdRol == 4) 
                         {
                             Response.Redirect("PP_Registro.aspx");
                         }

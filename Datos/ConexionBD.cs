@@ -163,10 +163,10 @@ namespace Datos
                 while (reader.Read())
                 {
                     
-                    user.Cedula1= reader["Cedula"].ToString();
-                    user.Contrasena1= reader["Contrasena"].ToString();
-                    user.IdRol1 = Convert.ToInt32(reader["IdRol"].ToString());
-                    user.P_Ingreso1 = Convert.ToBoolean(reader["P_Ingreso"].ToString());
+                    user.Cedula= reader["Cedula"].ToString();
+                    user.Contrasena= reader["Contrasena"].ToString();
+                    user.IdRol = Convert.ToInt32(reader["IdRol"].ToString());
+                    user.P_Ingreso = Convert.ToBoolean(reader["P_Ingreso"].ToString());
                 }
             }
             conexion.Close();
@@ -234,8 +234,8 @@ namespace Datos
                 while (reader.Read())
                 {
                     Carreras carrera = new Carreras();
-                    carrera.IdCarrera1=Convert.ToInt32(reader["IdCarrera"].ToString());
-                    carrera.NombreCarrera1 = reader["NombreCarrera"].ToString();
+                    carrera._IdCarrera=Convert.ToInt32(reader["IdCarrera"].ToString());
+                    carrera._NombreCarrera = reader["NombreCarrera"].ToString();
                     lst.Add(carrera);
                 }
             }

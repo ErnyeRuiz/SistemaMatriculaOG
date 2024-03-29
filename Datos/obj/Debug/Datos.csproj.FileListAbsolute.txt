@@ -232,3 +232,4 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Deb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
