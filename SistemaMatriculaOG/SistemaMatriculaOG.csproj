@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Css\VentanaModal.css" />
     <Content Include="Img\logo.png" />
     <Content Include="Pages\CambioContrasenia.aspx" />
     <Content Include="Pages\Login.aspx" />
@@ -74,6 +75,7 @@
     <Content Include="Pages\PP_DirCarrera.aspx" />
     <Content Include="Pages\PP_Egresados.aspx" />
     <Content Include="Pages\PP_Estudiantes.aspx" />
+    <Content Include="Pages\Responder_Solicitud_Registro.aspx" />
     <Content Include="Pages\Solicitud_Registro.aspx" />
     <Content Include="Pages\PP_Registro.aspx" />
     <Content Include="Web.config" />
@@ -149,6 +151,13 @@
     <Compile Include="Pages\PP_Estudiantes.aspx.designer.cs">
       <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Responder_Solicitud_Registro.aspx.cs">
+      <DependentUpon>Responder_Solicitud_Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Responder_Solicitud_Registro.aspx.designer.cs">
+      <DependentUpon>Responder_Solicitud_Registro.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Solicitud_Registro.aspx.cs">
       <DependentUpon>Solicitud_Registro.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -178,9 +187,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Css\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{f24a63a0-bf5f-4cbe-b1b5-17acfe971f1f}</Project>
