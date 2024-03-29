@@ -31,7 +31,43 @@ namespace Negocio
             ConexionBD con = new ConexionBD();
             con.RegistroEstudiante(cedula, Nombre, Apellido1, Apellido2, Nacionalidad, Correo, telefono, FechaNac, IDCarrera);
         }
+        //Respuestas solicitudes
+        public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
+            ConexionBD con=new ConexionBD();
+            return con.TraerSolicitudesPendientes();
 
+        }
+
+        public Estudiante TraerEstudiante(string cedula) {
+            ConexionBD con = new ConexionBD();
+            return con.TraerEstudiante(cedula);
+        }
+
+        public Funcionarios TraerFuncionario(string Cedula) {
+            ConexionBD con = new ConexionBD();
+            return con.TraerFuncionario(Cedula);
+        }
+
+        public string TraerSolicitudRegistro(int idsolicitud) { 
+            ConexionBD con= new ConexionBD();
+            return con.TraerSolicitudRegistro(idsolicitud);
+
+        }
+
+        public void CambiarEstadoSolicitudRegistro(int idsolicitud, int idestado,string cedulafuncionario,string motivo) { 
+            ConexionBD con=new ConexionBD();
+            con.CambiarEstadoSolicitudRegistro(idestado,idsolicitud,cedulafuncionario,motivo);
+
+        }
+
+        public void EnviarCredencialesEstudiante(string cedula, string ClaveTemporal) {
+            ConexionBD con = new ConexionBD();
+            Estudiante estudiante = con.TraerEstudiante(cedula);
+            Correos correo= new Correos();
+            correo.EnviodeCredenciales(estudiante.Correo,cedula,ClaveTemporal,$"{estudiante.NombreEstudiante} {estudiante.Apellido1} {estudiante.Apellido2}");
+
+        
+        }
 
     }
 }
