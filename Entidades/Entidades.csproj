@@ -44,10 +44,8 @@
     <Compile Include="Carreras.cs" />
     <Compile Include="Correos.cs" />
     <Compile Include="Estudiante.cs" />
-    <Compile Include="Funcionarios.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Roles.cs" />
-    <Compile Include="SolicitudesRegistroSistema.cs" />
     <Compile Include="Usuarios.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

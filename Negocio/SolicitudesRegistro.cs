@@ -11,19 +11,19 @@ namespace Negocio
     public class SolicitudesRegistro
     {
         public List<Carreras> TraerCarreras() {
-            ConexionBD con=new ConexionBD();
+            ConexionBD con = new ConexionBD();
             return con.TraerCarreras();
         }
 
-        public void RegistrarSolicitud(string cedula) { 
-            ConexionBD con=new ConexionBD();
-            con.RegistroSolicitudDeRegistro(cedula,1);
-            
+        public void RegistrarSolicitud(string cedula) {
+            ConexionBD con = new ConexionBD();
+            con.RegistroSolicitudDeRegistro(cedula, 1);
+
         }
 
-        public void RegistrarUsuario(string cedula,string contrasenia) {
+        public void RegistrarUsuario(string cedula, string contrasenia) {
             ConexionBD con = new ConexionBD();
-            con.RegistroUsuario(cedula,contrasenia,1);
+            con.RegistroUsuario(cedula, contrasenia, 1);
         }
 
         public void RegistrarEstudiante(string cedula, string Nombre, string Apellido1, string Apellido2
@@ -32,42 +32,42 @@ namespace Negocio
             con.RegistroEstudiante(cedula, Nombre, Apellido1, Apellido2, Nacionalidad, Correo, telefono, FechaNac, IDCarrera);
         }
         //Respuestas solicitudes
-        public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
-            ConexionBD con=new ConexionBD();
-            return con.TraerSolicitudesPendientes();
-
-        }
-
-        public Estudiante TraerEstudiante(string cedula) {
-            ConexionBD con = new ConexionBD();
-            return con.TraerEstudiante(cedula);
-        }
-
-        public Funcionarios TraerFuncionario(string Cedula) {
-            ConexionBD con = new ConexionBD();
-            return con.TraerFuncionario(Cedula);
-        }
-
-        public string TraerSolicitudRegistro(int idsolicitud) { 
-            ConexionBD con= new ConexionBD();
-            return con.TraerSolicitudRegistro(idsolicitud);
-
-        }
-
-        public void CambiarEstadoSolicitudRegistro(int idsolicitud, int idestado,string cedulafuncionario,string motivo) { 
-            ConexionBD con=new ConexionBD();
-            con.CambiarEstadoSolicitudRegistro(idestado,idsolicitud,cedulafuncionario,motivo);
-
-        }
-
-        public void EnviarCredencialesEstudiante(string cedula, string ClaveTemporal) {
-            ConexionBD con = new ConexionBD();
-            Estudiante estudiante = con.TraerEstudiante(cedula);
-            Correos correo= new Correos();
-            correo.EnviodeCredenciales(estudiante.Correo,cedula,ClaveTemporal,$"{estudiante.NombreEstudiante} {estudiante.Apellido1} {estudiante.Apellido2}");
-
-        
-        }
+        //public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
+        //    ConexionBD con=new ConexionBD();
+        //    return con.TraerSolicitudesPendientes();
 
     }
+
+    //public Estudiante TraerEstudiante(string cedula) {
+    //    ConexionBD con = new ConexionBD();
+    //    return con.TraerEstudiante(cedula);
+    //}
+
+    //public Funcionarios TraerFuncionario(string Cedula) {
+    //    ConexionBD con = new ConexionBD();
+    //    return con.TraerFuncionario(Cedula);
+    //}
+
+    //public string TraerSolicitudRegistro(int idsolicitud) { 
+    //    ConexionBD con= new ConexionBD();
+    //    return con.TraerSolicitudRegistro(idsolicitud);
+
+    //}
+
+    //public void CambiarEstadoSolicitudRegistro(int idsolicitud, int idestado,string cedulafuncionario,string motivo) { 
+    //    ConexionBD con=new ConexionBD();
+    //    con.CambiarEstadoSolicitudRegistro(idestado,idsolicitud,cedulafuncionario,motivo);
+
+    //}
+
+    //public void EnviarCredencialesEstudiante(string cedula, string ClaveTemporal) {
+    //    ConexionBD con = new ConexionBD();
+    //    Estudiante estudiante = con.TraerEstudiante(cedula);
+    //    Correos correo= new Correos();
+    //    correo.EnviodeCredenciales(estudiante.Correo,cedula,ClaveTemporal,$"{estudiante.NombreEstudiante} {estudiante.Apellido1} {estudiante.Apellido2}");
+
+
+    //}
+
+    
 }

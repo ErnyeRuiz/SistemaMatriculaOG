@@ -266,27 +266,27 @@ namespace Datos
         }
         #endregion
 
-        public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
-            List<SolicitudesRegistroSistema> lst=new List<SolicitudesRegistroSistema> ();
-            conexion.Open();
-            SqlCommand command = new SqlCommand("SolicitudesRegistroPendientes", conexion);
+        //public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
+        //    List<SolicitudesRegistroSistema> lst=new List<SolicitudesRegistroSistema> ();
+        //    conexion.Open();
+        //    SqlCommand command = new SqlCommand("SolicitudesRegistroPendientes", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            using (SqlDataReader reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    SolicitudesRegistroSistema solicitud = new SolicitudesRegistroSistema();
-                    solicitud.IdSolicitudRegistro = Convert.ToInt32(reader["IdSolicitudRegistro"].ToString());
-                    solicitud.CedulaEstudiante = reader["CedulaEstudiante"].ToString();
-                    solicitud.Estado = reader["NombreEstado"].ToString() ;
-                    lst.Add(solicitud);
-                }
-            }
-            conexion.Close();
+        //    command.CommandType = CommandType.StoredProcedure;
+        //    using (SqlDataReader reader = command.ExecuteReader())
+        //    {
+        //        while (reader.Read())
+        //        {
+        //            SolicitudesRegistroSistema solicitud = new SolicitudesRegistroSistema();
+        //            solicitud.IdSolicitudRegistro = Convert.ToInt32(reader["IdSolicitudRegistro"].ToString());
+        //            solicitud.CedulaEstudiante = reader["CedulaEstudiante"].ToString();
+        //            solicitud.Estado = reader["NombreEstado"].ToString() ;
+        //            lst.Add(solicitud);
+        //        }
+        //    }
+        //    conexion.Close();
 
-            return lst;
-        }
+        //    return lst;
+        //}
 
         public Estudiante TraerEstudiante(string cedula) { 
             
@@ -318,28 +318,28 @@ namespace Datos
             return estudiante;
         }
 
-        public Funcionarios TraerFuncionario(string cedula) {
-            Funcionarios funcionario = new Funcionarios();
-            conexion.Open();
-            SqlCommand command = new SqlCommand("TraerFuncionario", conexion);
+        //public Funcionarios TraerFuncionario(string cedula) {
+        //    Funcionarios funcionario = new Funcionarios();
+        //    conexion.Open();
+        //    SqlCommand command = new SqlCommand("TraerFuncionario", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@CedulaFuncionario", cedula);
+        //    command.CommandType = CommandType.StoredProcedure;
+        //    command.Parameters.AddWithValue("@CedulaFuncionario", cedula);
 
-            using (SqlDataReader reader = command.ExecuteReader())
-            {
-                while (reader.Read())
-                {
-                    funcionario.CedulaFuncionario = reader["CedulaFuncionario"].ToString();
-                    funcionario.Nombre = reader["NombreFuncionario"].ToString();
-                    funcionario.Apellidos = reader["ApellidosFuncionario"].ToString();
-                }
-            }
+        //    using (SqlDataReader reader = command.ExecuteReader())
+        //    {
+        //        while (reader.Read())
+        //        {
+        //            funcionario.CedulaFuncionario = reader["CedulaFuncionario"].ToString();
+        //            funcionario.Nombre = reader["NombreFuncionario"].ToString();
+        //            funcionario.Apellidos = reader["ApellidosFuncionario"].ToString();
+        //        }
+        //    }
 
-            conexion.Close();
+        //    conexion.Close();
 
-            return funcionario;
-        }
+        //    return funcionario;
+        //}
 
         public string TraerSolicitudRegistro(int idsolicitud) {
             string informacion = "";
