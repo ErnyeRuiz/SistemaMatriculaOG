@@ -264,32 +264,35 @@ namespace Datos
             conexion.Close();
 
         }
-        #endregion
 
-        //public List<SolicitudesRegistroSistema> TraerSolicitudesPendientes() { 
-        //    List<SolicitudesRegistroSistema> lst=new List<SolicitudesRegistroSistema> ();
-        //    conexion.Open();
-        //    SqlCommand command = new SqlCommand("SolicitudesRegistroPendientes", conexion);
 
-        //    command.CommandType = CommandType.StoredProcedure;
-        //    using (SqlDataReader reader = command.ExecuteReader())
-        //    {
-        //        while (reader.Read())
-        //        {
-        //            SolicitudesRegistroSistema solicitud = new SolicitudesRegistroSistema();
-        //            solicitud.IdSolicitudRegistro = Convert.ToInt32(reader["IdSolicitudRegistro"].ToString());
-        //            solicitud.CedulaEstudiante = reader["CedulaEstudiante"].ToString();
-        //            solicitud.Estado = reader["NombreEstado"].ToString() ;
-        //            lst.Add(solicitud);
-        //        }
-        //    }
-        //    conexion.Close();
+        //Respuesta solicitudes registro
+        public List<Entidades.SolicitudesRegistro> TraerSolicitudesPendientes()
+        {
+            List<Entidades.SolicitudesRegistro> lst = new List<Entidades.SolicitudesRegistro>();
+            conexion.Open();
+            SqlCommand command = new SqlCommand("SolicitudesRegistroPendientes", conexion);
 
-        //    return lst;
-        //}
+            command.CommandType = CommandType.StoredProcedure;
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    Entidades.SolicitudesRegistro solicitud = new Entidades.SolicitudesRegistro();
+                    solicitud.IdsolicitudRegistro = Convert.ToInt32(reader["IdSolicitudRegistro"].ToString());
+                    solicitud.CedulaEstudiante = reader["CedulaEstudiante"].ToString();
+                    solicitud.IdEstado = reader["NombreEstado"].ToString();
+                    lst.Add(solicitud);
+                }
+            }
+            conexion.Close();
 
-        public Estudiante TraerEstudiante(string cedula) { 
-            
+            return lst;
+        }
+
+        public Estudiante TraerEstudiante(string cedula)
+        {
+
             Estudiante estudiante = new Estudiante();
             conexion.Open();
             SqlCommand command = new SqlCommand("TraerEstudiante", conexion);
@@ -318,30 +321,32 @@ namespace Datos
             return estudiante;
         }
 
-        //public Funcionarios TraerFuncionario(string cedula) {
-        //    Funcionarios funcionario = new Funcionarios();
-        //    conexion.Open();
-        //    SqlCommand command = new SqlCommand("TraerFuncionario", conexion);
+        public Funcionarios TraerFuncionario(string cedula)
+        {
+            Funcionarios funcionario = new Funcionarios();
+            conexion.Open();
+            SqlCommand command = new SqlCommand("TraerFuncionario", conexion);
 
-        //    command.CommandType = CommandType.StoredProcedure;
-        //    command.Parameters.AddWithValue("@CedulaFuncionario", cedula);
+            command.CommandType = CommandType.StoredProcedure;
+            command.Parameters.AddWithValue("@CedulaFuncionario", cedula);
 
-        //    using (SqlDataReader reader = command.ExecuteReader())
-        //    {
-        //        while (reader.Read())
-        //        {
-        //            funcionario.CedulaFuncionario = reader["CedulaFuncionario"].ToString();
-        //            funcionario.Nombre = reader["NombreFuncionario"].ToString();
-        //            funcionario.Apellidos = reader["ApellidosFuncionario"].ToString();
-        //        }
-        //    }
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    funcionario.CedulaFuncionario = reader["CedulaFuncionario"].ToString();
+                    funcionario.NombreFuncionario = reader["NombreFuncionario"].ToString();
+                    funcionario.ApellidosFuncionario = reader["ApellidosFuncionario"].ToString();
+                }
+            }
 
-        //    conexion.Close();
+            conexion.Close();
 
-        //    return funcionario;
-        //}
+            return funcionario;
+        }
 
-        public string TraerSolicitudRegistro(int idsolicitud) {
+        public string TraerSolicitudRegistro(int idsolicitud)
+        {
             string informacion = "";
             conexion.Open();
             SqlCommand command = new SqlCommand("TraerSolicitudEstudiante", conexion);
@@ -362,7 +367,8 @@ namespace Datos
             return informacion;
         }
 
-        public void CambiarEstadoSolicitudRegistro(int idEstado,int IdSolicitudRegistro,string CedulaFuncionario,string Motivo) {
+        public void CambiarEstadoSolicitudRegistro(int idEstado, int IdSolicitudRegistro, string CedulaFuncionario, string Motivo)
+        {
             conexion.Open();
             SqlCommand command = new SqlCommand("CambiarEstadoSoliRegistro", conexion);
 
@@ -377,6 +383,10 @@ namespace Datos
 
             conexion.Close();
         }
+
+        #endregion
+
+
 
         #endregion
 

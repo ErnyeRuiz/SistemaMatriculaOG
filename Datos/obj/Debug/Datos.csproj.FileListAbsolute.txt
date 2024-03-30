@@ -233,3 +233,4 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Deb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
