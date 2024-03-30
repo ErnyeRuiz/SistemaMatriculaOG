@@ -43,7 +43,7 @@
                             <a class="nav-link dropdown-toggle btn btn-info" style="color:white;" href="#" id="drop2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Responder solicitudes
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="drop2">
-                                <li><a class="dropdown-item" href="Responder_Solicitud_Registro.aspx">Responder solicitud de registro</a></li>
+                                <li><a class="dropdown-item" href="Responder_Registro.aspx">Responder solicitud de registro</a></li>
                                 <li><a class="dropdown-item" href="#.aspx">Responder solicitud de opción de graduación</a></li>
                             </ul>
                         </li>

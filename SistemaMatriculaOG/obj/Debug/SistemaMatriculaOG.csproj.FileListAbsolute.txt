@@ -149,3 +149,5 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatric
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll.config
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll.config

@@ -91,6 +91,7 @@
     <Content Include="Pages\PP_DirCarrera.aspx" />
     <Content Include="Pages\PP_Egresados.aspx" />
     <Content Include="Pages\PP_Estudiantes.aspx" />
+    <Content Include="Pages\Responder_Registro.aspx" />
     <Content Include="Pages\Solicitud_Registro.aspx" />
     <Content Include="Pages\PP_Registro.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -171,6 +172,13 @@
     </Compile>
     <Compile Include="Pages\PP_Estudiantes.aspx.designer.cs">
       <DependentUpon>PP_Estudiantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Responder_Registro.aspx.cs">
+      <DependentUpon>Responder_Registro.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Responder_Registro.aspx.designer.cs">
+      <DependentUpon>Responder_Registro.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Solicitud_Registro.aspx.cs">
       <DependentUpon>Solicitud_Registro.aspx</DependentUpon>
