@@ -21,9 +21,5 @@ namespace Entidades
         public DateTime FechaRegistro { get; set; } = DateTime.Now; // default getdate()
         public string CarreraId { get; set; } // foreign key
 
-        //public virtual Carreras Carreras { get; set; }  
-        //public ICollection<SolicitudesGraduacion> solicitudesGraduacions { get; set; }
-        //public ICollection<SolicitudesRegistro> solicitudesRegistro { get; set; }
-        //public ICollection<EmpresasEstudiante> empresasEstudiantes { get; set; }
     }
 }

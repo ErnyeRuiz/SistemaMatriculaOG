@@ -1,2 +1,64 @@
-﻿body {
+﻿#btn-modal1 {
+    display: none;
+}
+
+.container-modal1 {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.9;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+#btn-modal1:checked ~ .container-modal1 {
+    display: flex;
+}
+
+.content-modal1 {
+    width: 100%;
+    max-width: 70%;
+    padding: 20px;
+    background-color: darkred;
+    border-radius: 4px;
+}
+
+    .content-modal1 h1 {
+        margin-bottom: 15px;
+    }
+
+    .content-modal1 .btn-cerrar1 {
+        width: 100%;
+        margin-top: 15px;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+        .content-modal1 .btn-cerrar1 label {
+            font-size: 10px;
+            font-weight: 600;
+            padding: 7px 10px;
+            background: rgba(141, 203, 226); /* Cambia el valor de opacidad según tus necesidades */
+            color: #0088CC;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 300ms ease;
+        }
+
+            .content-modal1 .btn-cerrar1 label:hover {
+                background-color: #185E83;
+            }
+
+.cerrar-modal1 {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
