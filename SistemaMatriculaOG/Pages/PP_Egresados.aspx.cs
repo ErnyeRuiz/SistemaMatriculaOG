@@ -12,6 +12,16 @@ namespace SistemaMatriculaOG.Pages
         protected void Page_Load(object sender, EventArgs e)
         {
 
+            if (Session["Mensaje"] != null)
+            {
+                //Mensaje en pantalla
+                string scriptalerta =
+                "toastr.options.closeButton = true;" +
+                "toastr.options.positionClass = 'toast-bottom-right';" +
+                $"toastr.success('{Convert.ToString(Session["Mensaje"])}');";
+                ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+                Session["Mensaje"] = null;
+            }
         }
     }
 }
