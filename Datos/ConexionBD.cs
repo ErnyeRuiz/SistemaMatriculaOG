@@ -389,6 +389,26 @@ namespace Datos
 
         #endregion
 
+        #region CambioContrasenia
+        public void CambioContrasenia(string cedula,string contrasenia,bool estadoingreso) {
+            try {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("CambioContrasenia", conexion);
+
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@Cedula", cedula);
+                command.Parameters.AddWithValue("@Contrasenia", contrasenia);
+                command.Parameters.AddWithValue("@EstadoIngreso", estadoingreso);
+                command.ExecuteNonQuery();
+
+                conexion.Close();
+            }
+            catch {
+            
+            }
+        
+        }
+        #endregion
 
 
         #endregion

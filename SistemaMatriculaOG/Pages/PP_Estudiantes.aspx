@@ -4,5 +4,4 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <%-- Aqui viene el contenido de la pagina --%>
     <h1>Página de estudiantes</h1>
-    <asp:Label ID="lblTexto" runat="server" Text="Label"></asp:Label>
 </asp:Content>

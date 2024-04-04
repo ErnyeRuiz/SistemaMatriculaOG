@@ -12,7 +12,6 @@ namespace SistemaMatriculaOG.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            Console.WriteLine("Inicio correcto");
 
             //if (await Negocio.SolicitudesGraduacion.CargarTiposOG())
             //{
@@ -21,6 +20,17 @@ namespace SistemaMatriculaOG.Pages
             //else {
             //    lblTexto.Text = "Carga incorrecta";
             //}
+            if (Session["Mensaje"] != null)
+            {
+                //Mensaje en pantalla
+                string scriptalerta =
+                "toastr.options.closeButton = true;" +
+                "toastr.options.positionClass = 'toast-bottom-right';" +
+                $"toastr.success('{Convert.ToString(Session["Mensaje"])}');";
+                ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+                Session["Mensaje"] = null;
+            }
+
         }
     }
 }

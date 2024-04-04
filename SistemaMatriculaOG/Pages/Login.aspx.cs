@@ -42,11 +42,26 @@ namespace SistemaMatriculaOG
 
                         if (user.IdRol == 1)
                         {
-                            Response.Redirect("PP_Estudiantes.aspx");
+                            if (user.P_Ingreso == true)
+                            {
+                                Response.Redirect("CambioContrasenia.aspx");
+                            }
+                            else { 
+                                Response.Redirect("PP_Estudiantes.aspx");
+                            }
+                            
                         }
                         else if (user.IdRol == 2)
                         {
-                            Response.Redirect("PP_Egresados.aspx");
+                            if (user.P_Ingreso == true)
+                            {
+                                Response.Redirect("CambioContrasenia.aspx");
+                            }
+                            else
+                            {
+                                Response.Redirect("PP_Egresados.aspx");
+                            }
+                            
                         }
                         else if (user.IdRol == 3) 
                         {
