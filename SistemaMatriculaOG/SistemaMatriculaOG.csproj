@@ -83,6 +83,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Css\RegistroSolicitudOG.css" />
     <Content Include="Css\VentanaModal.css" />
     <Content Include="Img\logo.png" />
     <Content Include="Pages\CambioContrasenia.aspx" />
@@ -92,6 +93,7 @@
     <Content Include="Pages\PP_Egresados.aspx" />
     <Content Include="Pages\PP_Estudiantes.aspx" />
     <Content Include="Pages\Responder_Registro.aspx" />
+    <Content Include="Pages\SolicitudOG.aspx" />
     <Content Include="Pages\Solicitud_Registro.aspx" />
     <Content Include="Pages\PP_Registro.aspx" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -179,6 +181,13 @@
     </Compile>
     <Compile Include="Pages\Responder_Registro.aspx.designer.cs">
       <DependentUpon>Responder_Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SolicitudOG.aspx.cs">
+      <DependentUpon>SolicitudOG.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SolicitudOG.aspx.designer.cs">
+      <DependentUpon>SolicitudOG.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Solicitud_Registro.aspx.cs">
       <DependentUpon>Solicitud_Registro.aspx</DependentUpon>
