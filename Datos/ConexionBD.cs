@@ -198,26 +198,29 @@ namespace Datos
         public void RegistroEstudiante(string cedula,string Nombre,string Apellido1,string Apellido2
             ,string Nacionalidad,string Correo,string telefono,DateTime FechaNac,int IDCarrera)
         {
-            conexion.Open();
-            SqlCommand command = new SqlCommand("RegistrarEstudiante", conexion);
+            try {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("RegistrarEstudiante", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@Cedula", cedula);
-            command.Parameters.AddWithValue("@Nombre",Nombre);
-            command.Parameters.AddWithValue("@Apellido1",Apellido1);
-            command.Parameters.AddWithValue("@Apellido2",Apellido2);
-            command.Parameters.AddWithValue("@Nacionalidad",Nacionalidad);
-            command.Parameters.AddWithValue("@Correo",Correo);
-            command.Parameters.AddWithValue("@Telefono",telefono);
-            command.Parameters.AddWithValue("@FechaNac",FechaNac);
-            command.Parameters.AddWithValue("@IDCarrera",IDCarrera);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@Cedula", cedula);
+                command.Parameters.AddWithValue("@Nombre", Nombre);
+                command.Parameters.AddWithValue("@Apellido1", Apellido1);
+                command.Parameters.AddWithValue("@Apellido2", Apellido2);
+                command.Parameters.AddWithValue("@Nacionalidad", Nacionalidad);
+                command.Parameters.AddWithValue("@Correo", Correo);
+                command.Parameters.AddWithValue("@Telefono", telefono);
+                command.Parameters.AddWithValue("@FechaNac", FechaNac);
+                command.Parameters.AddWithValue("@IDCarrera", IDCarrera);
 
 
 
-            command.ExecuteNonQuery();
+                command.ExecuteNonQuery();
 
-            conexion.Close();
-
+                conexion.Close();
+            } catch {
+                //Error de BD
+            }
         }
 
         //Traer lista de carreras
