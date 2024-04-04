@@ -38,3 +38,17 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\D
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Datos.pdb
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb

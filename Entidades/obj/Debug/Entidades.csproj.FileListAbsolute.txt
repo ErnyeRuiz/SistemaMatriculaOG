@@ -18,3 +18,10 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
