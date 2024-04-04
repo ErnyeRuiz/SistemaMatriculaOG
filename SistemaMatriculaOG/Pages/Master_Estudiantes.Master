@@ -34,7 +34,7 @@
                             <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;" href="#.aspx">Perfil</a>
                         </li>
                         <li class="nav-item">
-                            <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;" href="#.aspx">Enviar solicitud de opción de graduación</a>
+                            <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;" href="Solicitud_OG.aspx">Enviar solicitud de opción de graduación</a>
                         </li>
 
                     </ul>
