@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CambioContraseña.cs" />
+    <Compile Include="Estudiante.cs" />
     <Compile Include="GeneradorContrasenias.cs" />
     <Compile Include="Login.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
