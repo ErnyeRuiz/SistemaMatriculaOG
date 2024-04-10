@@ -40,7 +40,7 @@ namespace Negocio
             return con.TraerSolicitudesPendientes();
         }
 
-        public Estudiante TraerEstudiante(string cedula)
+        public Entidades.Estudiante TraerEstudiante(string cedula)
         {
             ConexionBD con = new ConexionBD();
             return con.TraerEstudiante(cedula);
@@ -69,7 +69,7 @@ namespace Negocio
         public void EnviarCredencialesEstudiante(string cedula, string ClaveTemporal)
         {
             ConexionBD con = new ConexionBD();
-            Estudiante estudiante = con.TraerEstudiante(cedula);
+            Entidades.Estudiante estudiante = con.TraerEstudiante(cedula);
             Correos correo = new Correos();
             correo.EnviodeCredenciales(estudiante.Correo, cedula, ClaveTemporal, $"{estudiante.NombreEstudiante} {estudiante.Apellido1} {estudiante.Apellido2}");
 

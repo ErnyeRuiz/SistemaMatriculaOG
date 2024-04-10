@@ -66,11 +66,7 @@ namespace SistemaMatriculaOG.Pages
                 {
                     //Mensaje
                     PermitirRegistro = false;
-                    string scriptalerta =
-                    "toastr.options.closeButton = true;" +
-                    "toastr.options.positionClass = 'toast-bottom-right';" +
-                    $"toastr.error('¡Debe ingresar información valida!(Identificación)');";
-                    ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+                    
                 }
                 if (!correo.Contains("@"))
                 {
