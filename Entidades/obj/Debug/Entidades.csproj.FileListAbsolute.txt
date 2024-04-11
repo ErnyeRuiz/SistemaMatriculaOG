@@ -32,3 +32,10 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V6\SistemaMatriculaOG\Entidades\obj
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V6\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V6\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V6\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
