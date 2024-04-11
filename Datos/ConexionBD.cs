@@ -122,6 +122,13 @@ namespace Datos
             }
         }
 
+        public string ConnectionString
+        {
+            get
+            {
+                return ConfigurationManager.ConnectionStrings["ConexionSQL"].ConnectionString;
+            }
+        }
         #region Sebas
 
         #region Login
