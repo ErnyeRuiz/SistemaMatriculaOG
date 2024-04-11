@@ -60,6 +60,7 @@
     <Compile Include="SolicitudesRegistro.cs" />
     <Compile Include="TipoGraduacion.cs" />
     <Compile Include="Usuarios.cs" />
+    <Compile Include="VistaSolicitudesPendientes.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

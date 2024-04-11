@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Entidades;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
@@ -73,6 +74,72 @@ namespace Negocio
              {
                 throw new Exception();
             }
+        }
+        public static List<VistaSolicitudesPendientes> VerSolicitudesOGPendientes()
+        {
+            try
+            {
+                Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+
+                List<VistaSolicitudesPendientes> lista = new List<VistaSolicitudesPendientes>();
+
+                var tabla = conexionBD.ExecuteSPWithDT("CargarSolicitudesOGPendientes", null);
+
+                if (tabla != null)
+                {
+                    foreach (DataRow fila in tabla.Rows)
+                    {
+                        Entidades.VistaSolicitudesPendientes v = new VistaSolicitudesPendientes
+                        {
+                            IdSolicitud = Convert.ToInt16(fila[0]),
+                            IdCarrera = Convert.ToInt16(fila[1]),
+                            Carrera = fila[2].ToString(),
+                            Nombre = fila[3].ToString(),
+                            Apellidos = fila[4].ToString(),
+                            Cedula = fila[5].ToString(),
+                            Tipo = fila[6].ToString(),
+                            Fecha = Convert.ToDateTime(fila[7].ToString())
+                        };
+                        lista.Add(v);
+                    }
+                }
+                return lista;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+          
+        }
+        public static List<Entidades.Carreras> VerCarreras()
+        {
+            try
+            {
+                Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+
+                List<Carreras> lista = new List<Carreras>();
+
+                var tabla = conexionBD.ExecuteSPWithDT("TraerCarreras", null);
+
+                if (tabla != null)
+                {
+                    foreach (DataRow fila in tabla.Rows)
+                    {
+                        Carreras c = new Carreras
+                        {
+                            _IdCarrera = Convert.ToInt16(fila[0].ToString()),
+                            _NombreCarrera = fila[1].ToString(),
+                        };
+                        lista.Add(c);
+                    }
+                }
+                return lista;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+           
         }
     }
 }
