@@ -413,6 +413,13 @@ namespace Datos
 
         #endregion
 
+        public string ConnectionString
+        {
+            get
+            {
+                return ConfigurationManager.ConnectionStrings["ConexionSQL"].ConnectionString;
+            }
+        }
     }
 
 }
