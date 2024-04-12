@@ -1,9 +1,11 @@
 ﻿using Entidades;
 using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
@@ -71,7 +73,7 @@ namespace Negocio
 
             }
             catch (Exception)
-             {
+            {
                 throw new Exception();
             }
         }
@@ -97,8 +99,11 @@ namespace Negocio
                             Nombre = fila[3].ToString(),
                             Apellidos = fila[4].ToString(),
                             Cedula = fila[5].ToString(),
-                            Tipo = fila[6].ToString(),
-                            Fecha = Convert.ToDateTime(fila[7].ToString())
+                            Correo = fila[6].ToString(),
+                            NumeroTelefono = fila[7].ToString(),
+                            Tipo = fila[8].ToString(),
+                            Fecha = Convert.ToDateTime(fila[9].ToString()),
+                            Estado = fila[10].ToString()
                         };
                         lista.Add(v);
                     }
@@ -109,7 +114,7 @@ namespace Negocio
             {
                 return null;
             }
-          
+
         }
         public static List<Entidades.Carreras> VerCarreras()
         {
@@ -139,7 +144,72 @@ namespace Negocio
             {
                 return null;
             }
-           
+
+        }
+        //SI ES 1 SE APRUEBA, SI ES 2 SE RECHAZA
+        public static void CambiarEstadoSolicitudOG(int idSolicitud, string motivo)
+        {
+            try
+            {
+                Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+                SqlParameter motivoP = new SqlParameter("@Motivo", SqlDbType.VarChar);
+                if (motivo == null)
+                {
+                    motivoP.Value = DBNull.Value;
+                }
+                else
+                {
+                    motivoP.Value = motivo;
+                }
+                List<SqlParameter> sqlParameters = new List<SqlParameter>
+                {
+                    new SqlParameter("@IdSolicitud", SqlDbType.Int) { Value = idSolicitud },
+                    motivoP
+                };
+
+                conexionBD.ExecuteSP("CambiarEstadoSolicitudOG", sqlParameters);
+            }
+            catch (Exception)
+            {
+                throw new Exception();
+            }
+        }
+        public static string ValidarEnvioOGAbierta()
+        {
+            try
+            {
+                Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+
+                var result = conexionBD.ExecuteSPWithDT("ConsultarParametrosSistema",null);
+
+                if (result == null)
+                {
+                    throw new Exception("No se pudo consultar la fecha y hora de apertura de envio");
+                }
+                DateTime inicio = DateTime.MinValue , cierre = DateTime.MinValue;
+
+                foreach(DataRow fila in result.Rows)
+                {
+                    inicio = Convert.ToDateTime(fila[1].ToString());
+                    cierre = Convert.ToDateTime(fila[2].ToString());
+                }
+
+                DateTime Ahora = DateTime.Now;
+
+                if(Ahora>=inicio && Ahora <= cierre)
+                {
+                    return "Valido" ;
+                }
+                string respuesta = $"La matrícula de opción de graduación no está habilitada en este momento, sino desde: " +
+                    $"{inicio:dd/MM/yy} a las {inicio:HH:mm} hasta: {cierre:dd/MM/yy} a las {cierre:HH:mm}";
+                return respuesta;
+
+            }
+            catch (Exception)
+            {
+                throw new Exception("Algo salio mal en la carga de parametros");
+            }
+
         }
     }
 }
