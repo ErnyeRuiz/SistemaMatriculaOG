@@ -60,17 +60,79 @@ namespace SistemaMatriculaOG.Pages
                 rptSolicitudesOG.DataBind();
             }
 
-        }
-        //protected void btnSeleccionar_Click(object sender, EventArgs e)
-        //{
-        //    ScriptManager.RegisterStartupScript(this, this.GetType(), "modal", "$('#modalVerSolicitud').modal('show');", true);
-        //}
+        }        
         protected void rptSolicitudesOG_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
             if (e.CommandName == "Ver")
             {
-                ScriptManager.RegisterStartupScript(this, this.GetType(), "modal", "$('#modalVerSolicitud').modal('show');", true);
+                ScriptManager.RegisterStartupScript(this, this.GetType(), "modal", "$('#miModal').modal('show');", true);
+                CargarSolicitudModal(e.CommandArgument.ToString());
             }
+        }
+        protected void btnRechazar_Click(object sender, EventArgs e)
+        {
+            ScriptManager.RegisterStartupScript(this, this.GetType(), "modal", "$('#modalMotivo').modal('show');", true);
+
+        }
+
+        protected void btnConfirmar_Click(object sender, EventArgs e)
+        {
+            if (txtMotivo.Text.Length == 0){
+                string scriptalerta =
+              "toastr.options.closeButton = true;" +
+              "toastr.options.positionClass = 'toast-bottom-right';" +
+              $"toastr.warning('¡Debe ingresar un motivo!');";
+                ScriptManager.RegisterStartupScript(this, GetType(), "ToastrWarning", scriptalerta, true);
+            }
+            else
+            {
+                Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), txtMotivo.Text);
+                CargarSolicitudes();
+            }
+        }
+
+        private void CargarSolicitudModal(string idSolicitud)
+        {
+            listaSolicitudesPendientes = Negocio.SolicitudesGraduacion.VerSolicitudesOGPendientes();
+            var solicitud = listaSolicitudesPendientes.FirstOrDefault(so =>
+            so.IdSolicitud == Convert.ToInt16(idSolicitud));
+
+            if (solicitud != null)
+            {
+                lblIdSolicitud.Text = solicitud.IdSolicitud.ToString();
+                lblNombreEstudiante.Text = solicitud.Nombre +" "+ solicitud.Apellidos;
+                lblCedula.Text = solicitud.Cedula;
+                lblCorreo.Text = solicitud.Correo;
+                lblTelefono.Text = solicitud.NumeroTelefono;
+                lblCarrera.Text = solicitud.Carrera;
+                lblTipo.Text = solicitud.Tipo;
+                lblFechaHoraEnvio.Text = solicitud.Fecha.ToString();
+                lblEstadoSolicitud.Text = solicitud.Estado;
+            }
+            
+        }
+        protected void btnAceptar_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), null);
+                CargarSolicitudes();
+                string scriptalerta =
+                    "toastr.options.closeButton = true;" +
+                    "toastr.options.positionClass = 'toast-bottom-right';" +
+                    $"toastr.success('¡Solicitud aprobada correctamente!')";
+                ScriptManager.RegisterStartupScript(this, GetType(), "ToastrSuccess", scriptalerta, true);
+
+            }
+            catch (Exception)
+            {
+                string scriptalerta =
+                              "toastr.options.closeButton = true;" +
+                              "toastr.options.positionClass = 'toast-bottom-right';" +
+                              $"toastr.Error('¡Algo salió mal!');";
+                ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+            }
+
         }
     }
 }

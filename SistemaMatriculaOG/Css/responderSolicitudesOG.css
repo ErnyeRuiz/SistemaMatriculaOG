@@ -1,0 +1,11 @@
+﻿.btn-rechazar {
+    background-color: #d9534f; /* Rojo */
+    border-color: #d43f3a; /* Borde más oscuro */
+    color: white; /* Texto blanco */
+}
+
+.btn-aceptar {
+    background-color: #5cb85c; /* Verde */
+    border-color: #4cae4c; /* Borde más oscuro */
+    color: white; /* Texto blanco */
+}
