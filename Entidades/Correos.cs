@@ -105,5 +105,66 @@ namespace Entidades
             return respuesta;
         }
 
+        public bool EnviarCorreoCambioEstadoSolicitudOG(VistaSolicitudesPendientes solicitud, string nombreFuncionario, string motivo)
+        {
+            try
+            {
+                //vairables locales
+
+                DateTime ahora = DateTime.Now;
+                string subject = "Aprobación en su solicitud de Opcion de graduación";
+
+                // Configurar el cliente SMTP
+                SmtpClient clienteSmtp = new SmtpClient("smtp.gmail.com", 587);
+                clienteSmtp.EnableSsl = true;
+                clienteSmtp.UseDefaultCredentials = false;
+                clienteSmtp.Credentials = new NetworkCredential(Email, Contrasenia);
+
+                // Crear el mensaje
+                MailMessage mensaje = new MailMessage(Email, solicitud.Correo);
+
+                //Validamos si es aceptada o rechazada
+
+                if (motivo != null) //rechgzada
+                {
+                    subject = "Rechazo en su solicitud de Opcion de graduación";
+
+                    mensaje.Subject = subject;
+                    mensaje.Body = $"Estimado {solicitud.Nombre + ' ' + solicitud.Apellidos} la respuesta a su solicitud de matrícula de opción de graduación " +
+                        $"fue Rechazada."
+                        + Environment.NewLine + Environment.NewLine +
+                        "Motivo de rechazo de solicitud:"
+                        + Environment.NewLine + Environment.NewLine +
+                        $"{motivo}"
+                        + Environment.NewLine + Environment.NewLine +
+                        $"Atentamente: {nombreFuncionario}"
+                        + Environment.NewLine + Environment.NewLine +
+                        "Dpto. Registro."
+                        + Environment.NewLine + Environment.NewLine +
+                        $"Fecha de respuesta: {ahora.ToString()}";                      
+                }
+                else //aprobada
+                {
+                    mensaje.Subject = subject;
+                    mensaje.Body = $"Estimado {solicitud.Nombre + ' ' + solicitud.Apellidos} la respuesta a su solicitud matrícula de opción de graduación " +
+                    $"fue Aprobada por el departamento de registro."
+                    + Environment.NewLine + Environment.NewLine +
+                    $" Atentamente: {nombreFuncionario}." +
+                    Environment.NewLine + Environment.NewLine +
+                    $" Dpto. Registro." +
+                    Environment.NewLine + Environment.NewLine +
+                    $"Fecha de respuesta: {ahora.ToString()}";                   
+                }                              
+                // Enviar el mensaje
+                clienteSmtp.Send(mensaje);
+
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+            }
+        }
+
     }
 }

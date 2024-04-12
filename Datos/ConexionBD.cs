@@ -495,7 +495,7 @@ namespace Datos
                 //Error de BD
             }
         }
-
+        #endregion
 
         public string NombreFuncionarioUltimoCambio() {
             string NombreFuncionario = "";
@@ -516,7 +516,25 @@ namespace Datos
             return NombreFuncionario;
         }
         #endregion
+        #region RecuperarContrasenia
+        public void CambioIngreso(string cedula)
+        {
+            try
+            {
+                List<SqlParameter> parametros = new List<SqlParameter>
+        {
+            new SqlParameter("@Cedula", cedula)
+        };
 
+                ExecuteSP("CambioIngreso", parametros);
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+     
         #endregion
 
     }

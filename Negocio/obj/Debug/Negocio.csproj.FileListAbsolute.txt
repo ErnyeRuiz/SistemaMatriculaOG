@@ -94,3 +94,17 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V11\SistemaMatriculaOG\Negocio\obj\
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V11\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V11\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V11\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Datos.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb

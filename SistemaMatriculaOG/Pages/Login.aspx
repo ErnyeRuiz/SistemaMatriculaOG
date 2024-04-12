@@ -43,7 +43,7 @@
                 </div>
             </div>
             <div style="padding-bottom:2%">
-                <a class="" style="color:white;font-size:20px;" href="#.aspx">¿Recuperar contraseña?</a>
+                <a class="" style="color:white;font-size:20px;" href="RecuperarContrasena.aspx">¿Recuperar contraseña?</a>
             </div>
 
         </div>

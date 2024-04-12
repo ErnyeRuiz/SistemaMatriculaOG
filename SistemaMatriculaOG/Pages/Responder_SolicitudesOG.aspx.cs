@@ -14,6 +14,12 @@ namespace SistemaMatriculaOG.Pages
         List<VistaSolicitudesPendientes> listaSolicitudesPendientes = new List<VistaSolicitudesPendientes>();
         protected void Page_Load(object sender, EventArgs e)
         {
+            Usuarios user = (Usuarios)Session["Usuario"];
+
+            if (user == null)
+            {
+                Response.Redirect("Login.aspx");
+            }
             if (!IsPostBack)
             {
                 CargarCarreras();
@@ -125,7 +131,8 @@ namespace SistemaMatriculaOG.Pages
             {
                 try
                 {
-                    Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), txtMotivo.Text);
+                    Usuarios user = (Usuarios)Session["Usuario"];
+                    Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), txtMotivo.Text, user.Cedula);
                     CargarSolicitudes();
                     string scriptalerta =
                        "toastr.options.closeButton = true;" +
@@ -181,7 +188,9 @@ namespace SistemaMatriculaOG.Pages
         {
             try
             {
-                Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), null);
+                Usuarios user = (Usuarios)Session["Usuario"];
+
+                Negocio.SolicitudesGraduacion.CambiarEstadoSolicitudOG(Convert.ToInt16(lblIdSolicitud.Text), null, user.Cedula);
                 CargarSolicitudes();
                 string scriptalerta =
                     "toastr.options.closeButton = true;" +
@@ -199,6 +208,6 @@ namespace SistemaMatriculaOG.Pages
                 ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
             }
 
-        }
+        }       
     }
 }
