@@ -3,5 +3,10 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 <%-- Aqui viene el contenido de la pagina --%>
-    <h1>Página de estudiantes</h1>
+    <div style="text-align:center;">
+        <h1>¡Bienvenido!</h1>
+        <div>
+            <asp:Label ID="lblNombreEstudiante" style="font-size:40px;color:darkblue" runat="server" Text="Nombre"></asp:Label>
+        </div>
+    </div>
 </asp:Content>

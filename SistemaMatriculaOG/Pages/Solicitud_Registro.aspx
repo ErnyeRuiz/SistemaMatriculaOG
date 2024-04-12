@@ -34,10 +34,10 @@
             <div class="row">
                 <div style="width: 200px; margin-left: 25%">
                     <div style="text-align: center;">
-                        <asp:Label ID="lblCedula" Style="font-size: 20px;" runat="server" Text="Identificación"></asp:Label>
+                        <asp:Label ID="lblCedula" Style="font-size: 20px;" runat="server" Text="Identificación(Cédula)"></asp:Label>
                     </div>
                     <div>
-                        <asp:TextBox ID="txtCedula" Style="font-size: 20px; width: 200px;" runat="server" MaxLength="15" placeholder="(Obligatorio)"></asp:TextBox>
+                        <asp:TextBox ID="txtCedula" Style="font-size: 20px; width: 200px;" runat="server" MaxLength="15" onkeypress="return validarLetras(event);" placeholder="(Obligatorio)"></asp:TextBox>
                     </div>
                 </div>
                 <div style="width: 200px; margin-left: 2%">
@@ -45,7 +45,7 @@
                         <asp:Label ID="lblnombre" Style="font-size: 20px;" runat="server" Text="Nombre"></asp:Label>
                     </div>
                     <div>
-                        <asp:TextBox ID="txtNombre" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras(event);" MaxLength="15" placeholder="(Obligatorio)"></asp:TextBox>
+                        <asp:TextBox ID="txtNombre" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras2(event);" MaxLength="15" placeholder="(Obligatorio)"></asp:TextBox>
                     </div>
                 </div>
             </div>
@@ -56,7 +56,7 @@
                         <asp:Label ID="Label1" Style="font-size: 20px;" runat="server" Text="Apellido 1"></asp:Label>
                     </div>
                     <div style="text-align: center">
-                        <asp:TextBox ID="txtapellido1" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
+                        <asp:TextBox ID="txtapellido1" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras2(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
                     </div>
                 </div>
                 <div style="width: 200px; margin-left: 2%">
@@ -64,7 +64,7 @@
                         <asp:Label ID="Label2" Style="font-size: 20px;" runat="server" Text="Apellido 2"></asp:Label>
                     </div>
                     <div>
-                        <asp:TextBox ID="txtapellido2" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
+                        <asp:TextBox ID="txtapellido2" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras2(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
                     </div>
                 </div>
             </div>
@@ -75,7 +75,7 @@
                         <asp:Label ID="Label3" Style="font-size: 20px;" runat="server" Text="Nacionalidad"></asp:Label>
                     </div>
                     <div>
-                        <asp:TextBox ID="txtNacionalidad" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
+                        <asp:TextBox ID="txtNacionalidad" Style="font-size: 20px; width: 200px;" runat="server" onkeypress="return validarLetras2(event);" placeholder="(Obligatorio)" MaxLength="15"></asp:TextBox>
                     </div>
                 </div>
                 <div style="width: 200px; margin-left: 2%">
@@ -139,7 +139,19 @@
     function validarLetras(event) {
         var key = event.keyCode || event.which;
         var tecla = String.fromCharCode(key);
-        var letras = /^[A-Za-z\s]+$/;
+        var letras = /^[A-Za-z0-9\s\-]+$/;
+
+        if (!tecla.match(letras) && key !== 8) {
+            event.preventDefault();
+        }
+    }
+</script>
+
+<script type="text/javascript">
+    function validarLetras2(event) {
+        var key = event.keyCode || event.which;
+        var tecla = String.fromCharCode(key);
+        var letras = /^[A-Za-z\sñáéíóú]+$/;
 
         if (!tecla.match(letras) && key !== 8) {
             event.preventDefault();
