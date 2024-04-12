@@ -13,6 +13,10 @@ namespace Negocio
             ConexionBD con=new ConexionBD();
             con.CambioContrasenia(cedula,contrasenia,EstadoIngreso);
         }
-
+        public void RecuperarContra(string cedula)
+        {
+            ConexionBD con = new ConexionBD();
+            con.CambioIngreso(cedula);
+        }
     }
 }

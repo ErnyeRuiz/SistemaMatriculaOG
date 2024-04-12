@@ -147,11 +147,14 @@ namespace Negocio
 
         }
         //SI ES 1 SE APRUEBA, SI ES 2 SE RECHAZA
-        public static void CambiarEstadoSolicitudOG(int idSolicitud, string motivo)
+        public static void CambiarEstadoSolicitudOG(int idSolicitud, string motivo, string cedulaFuncionario)
         {
             try
             {
                 Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+
+                string nombreFuncionario = TraerFuncionario(cedulaFuncionario);
+
                 SqlParameter motivoP = new SqlParameter("@Motivo", SqlDbType.VarChar);
                 if (motivo == null)
                 {
@@ -164,10 +167,16 @@ namespace Negocio
                 List<SqlParameter> sqlParameters = new List<SqlParameter>
                 {
                     new SqlParameter("@IdSolicitud", SqlDbType.Int) { Value = idSolicitud },
-                    motivoP
-                };
+                    motivoP,
+                    new SqlParameter("@CedulaFuncionario",SqlDbType.VarChar){Value = cedulaFuncionario}
+                };                
 
-                conexionBD.ExecuteSP("CambiarEstadoSolicitudOG", sqlParameters);
+                if (nombreFuncionario != null)
+                {                    
+                    EnviarEmailCambioEstadoSolicitudOG(idSolicitud, nombreFuncionario, motivo);
+                    conexionBD.ExecuteSP("CambiarEstadoSolicitudOG", sqlParameters);
+
+                }
             }
             catch (Exception)
             {
@@ -210,6 +219,58 @@ namespace Negocio
                 throw new Exception("Algo salio mal en la carga de parametros");
             }
 
+        }
+
+        private static void EnviarEmailCambioEstadoSolicitudOG(int IdSolicitud, string nombreFuncionario, string motivo)
+        {
+            try {
+                List<VistaSolicitudesPendientes> solicitudesTotales = VerSolicitudesOGPendientes();
+
+                if (solicitudesTotales != null)
+                {
+                    var solicitud = solicitudesTotales.FirstOrDefault(s=>s.IdSolicitud==IdSolicitud);
+
+                    if (solicitud != null)
+                    {
+                        //Encontramos la solicitud 
+                        //envio de correo al estudiante
+                        Correos correo = new Correos();
+
+                        var result = correo.EnviarCorreoCambioEstadoSolicitudOG(solicitud,nombreFuncionario,motivo);
+                    }
+                }
+            }
+            catch (Exception)
+            {
+
+            }          
+        }
+
+        private static string TraerFuncionario(string cedula)
+        {
+            try
+            {
+                Datos.ConexionBD conexionBD = new Datos.ConexionBD();
+
+                SqlParameter cedulaP = new SqlParameter("@CedulaFuncionario", SqlDbType.VarChar);
+                cedulaP.Value = cedula;
+                List<SqlParameter> sqlParameters = new List<SqlParameter>();
+                sqlParameters.Add(cedulaP);
+                var tabla = conexionBD.ExecuteSPWithDT("TraerFuncionario", sqlParameters);
+
+                if (tabla.Rows.Count > 0)
+                {
+                    foreach (DataRow fila in tabla.Rows)
+                    {
+                        return fila[1].ToString() + " " + fila[2].ToString();
+                     }
+                }
+                return null;
+                }
+            catch (Exception)
+            {
+                throw new Exception("Error al traer el funcionario");
+            }
         }
     }
 }
