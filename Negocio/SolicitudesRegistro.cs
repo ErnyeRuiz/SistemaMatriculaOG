@@ -26,10 +26,10 @@ namespace Negocio
             con.RegistroUsuario(cedula, contrasenia, 1);
         }
 
-        public void RegistrarEstudiante(string cedula, string Nombre, string Apellido1, string Apellido2
+        public string RegistrarEstudiante(string cedula, string Nombre, string Apellido1, string Apellido2
             , string Nacionalidad, string Correo, string telefono, DateTime FechaNac, int IDCarrera) {
             ConexionBD con = new ConexionBD();
-            con.RegistroEstudiante(cedula, Nombre, Apellido1, Apellido2, Nacionalidad, Correo, telefono, FechaNac, IDCarrera);
+            return con.RegistroEstudiante(cedula, Nombre, Apellido1, Apellido2, Nacionalidad, Correo, telefono, FechaNac, IDCarrera);
         }
         //                                                                           Respuestas solicitudes
 

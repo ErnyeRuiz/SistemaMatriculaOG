@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/Master_Funcionarios.Master" AutoEventWireup="true" CodeBehind="SolicitudAprobada.aspx.cs" Inherits="SistemaMatriculaOG.Pages.SolicitudAprobada" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         .gridview-container {
@@ -9,10 +10,12 @@
             background-color: #337ab7;
             color: #fff;
             font-weight: bold;
+            text-align:center;
         }
 
         .gridview-row {
             background-color: #f9f9f9;
+            text-align: center;
         }
 
         .gridview-footer {
@@ -37,7 +40,7 @@
                 <asp:BoundField DataField="IdEstado" HeaderText="ID Estado" />
                 <asp:TemplateField HeaderText="Acción">
                     <ItemTemplate>
-                        <asp:Button ID="btnEditar" runat="server" Text="Seleccionar" CommandName="Editar" CommandArgument='<%# Eval("IdSolicitudGraduacion") %>' />
+                        <asp:Button ID="btnEditar" runat="server" Text="Seleccionar" class="btn btn-primary" Style="color: white" CommandName="Editar" CommandArgument='<%# Eval("IdSolicitudGraduacion") %>' />
                     </ItemTemplate>
                 </asp:TemplateField>
             </Columns>
@@ -50,12 +53,12 @@
 
             <h1>Informacion del estudiante</h1>
 
-            <asp:GridView id="GridView2" runat="server"></asp:GridView>
+            <asp:GridView ID="GridView2" runat="server"></asp:GridView>
 
 
             <h1>Informacion de la solicitud seleccionada</h1>
 
-             <asp:GridView id="GridView3" runat="server"></asp:GridView>
+            <asp:GridView ID="GridView3" runat="server"></asp:GridView>
 
 
 

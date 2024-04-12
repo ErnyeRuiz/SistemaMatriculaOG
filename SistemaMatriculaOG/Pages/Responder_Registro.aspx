@@ -123,7 +123,7 @@
                     <%-- Inicio Body --%>
                     <div style="text-align: center; color: white">
                         <h3>Ingrese el motivo de rechazo de la solicitud de registro</h3>
-                        <textarea id="txtMotivo" runat="server" style="resize: none; width: 600px; font-size: 20px; border-radius: 20px;"></textarea>
+                        <textarea id="txtMotivo" onkeypress="return validarLetras(event);" runat="server" style="resize: none; width: 600px; font-size: 20px; border-radius: 20px;"></textarea>
                         <div>
                             <asp:Button ID="btnRechazar" Class="btn btn-danger" OnClick="btnRechazar_Click" Style="font-size: 20px;" runat="server" Text="Rechazar solicitud" />
                         </div>
@@ -137,4 +137,16 @@
             <%-- Ventana Modal --%>
         </div>
     </div>
+
+    <script type="text/javascript">
+    function validarLetras(event) {
+        var key = event.keyCode || event.which;
+        var tecla = String.fromCharCode(key);
+        var letras = /^[A-Za-z\sñáéíóú]+$/;
+
+        if (!tecla.match(letras) && key !== 8) {
+            event.preventDefault();
+        }
+    }
+    </script>
 </asp:Content>

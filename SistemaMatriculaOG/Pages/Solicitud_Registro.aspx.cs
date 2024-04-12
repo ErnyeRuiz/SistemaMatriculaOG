@@ -68,16 +68,45 @@ namespace SistemaMatriculaOG.Pages
                     PermitirRegistro = false;
                     
                 }
-                if (!correo.Contains("@"))
+                if (correo.Contains("@"))
                 {
+                    //Segunda validacion del correo
+                    string[] DivisionesCorreo = correo.Split('@');//se separa el correo electronico por el caracter '@'
+                    if (DivisionesCorreo.Length == 2)//Evalua si el correo contiene solamente una @
+                    {
+                        string[] DivisionesCorreo2 = DivisionesCorreo[1].Split('.');//separa la cadena despues del '@' con el caracter '.'
+                        if (!(DivisionesCorreo2.Length > 1) || DivisionesCorreo2[0].Equals(""))//determina si existe almenos un punto despues del '@' y que exista un dominio dentro del correo
+                        {
+                            PermitirRegistro = false;//Invalida el correo si no contiene puntos despues del '@'
+                            string scriptalerta =
+                            "toastr.options.closeButton = true;" +
+                            "toastr.options.positionClass = 'toast-bottom-right';" +
+                            $"toastr.error('¡Debe ingresar información valida!(Correo)');";
+                            ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+                        }
+                    }
+                    else
+                    {
+                        PermitirRegistro = false;//Invalida el correo si tiene mas de 1 arroba
+                        string scriptalerta =
+                        "toastr.options.closeButton = true;" +
+                        "toastr.options.positionClass = 'toast-bottom-right';" +
+                        $"toastr.error('¡Debe ingresar información valida!(Correo)');";
+                        ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+                    }
+                }
+                else {
                     //Mensaje
-                    PermitirRegistro = false;
+                    PermitirRegistro = false;//Invalida el correo si no contiene '@'
                     string scriptalerta =
                     "toastr.options.closeButton = true;" +
                     "toastr.options.positionClass = 'toast-bottom-right';" +
                     $"toastr.error('¡Debe ingresar información valida!(Correo)');";
                     ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
                 }
+                
+                
+
                 DateTime FechaActualmentePermitida = DateTime.Now.AddYears(-18);
                 if (!(FechaNac.Year <= FechaActualmentePermitida.Year))
                 {
@@ -98,15 +127,23 @@ namespace SistemaMatriculaOG.Pages
                     SolicitudesR.RegistrarUsuario(cedula, contraseniatemporal);
 
                     //Registro del estudiante
-                    SolicitudesR.RegistrarEstudiante(cedula, nombre, apellido1, apellido2, nacionalidad, correo, telefono, FechaNac, Convert.ToInt32(DatosCarrera[0]));
+                    string respuesta=SolicitudesR.RegistrarEstudiante(cedula, nombre, apellido1, apellido2, nacionalidad, correo, telefono, FechaNac, Convert.ToInt32(DatosCarrera[0]));
 
-                    //Registro de la solicitud de registro
-                    SolicitudesR.RegistrarSolicitud(cedula);
+                    if (respuesta.Equals("Registrado")) { 
+                        //Registro de la solicitud de registro
+                        SolicitudesR.RegistrarSolicitud(cedula);
 
-                    //Mensaje procedimiento
-                    Session["Mensaje"] = "¡Envío de solicitud de registro exitoso!" + " Revisaremos tu solicitud y te daremos respuesta por medio del correo que ingresaste, " + "¡Gracias!";
+                        //Mensaje procedimiento
+                        Session["Mensaje"] = "¡Envío de solicitud de registro exitoso!" + " Revisaremos tu solicitud y te daremos respuesta por medio del correo que ingresaste, " + "¡Gracias!";
 
-                    Response.Redirect("Solicitud_Registro.aspx");
+                        Response.Redirect("Solicitud_Registro.aspx");
+                    }
+                    string scriptalerta =
+                    "toastr.options.closeButton = true;" +
+                    "toastr.options.positionClass = 'toast-bottom-right';" +
+                    $"toastr.error('¡Ha ocurrido un error al intentar registrar la información del estudiante, por favor verificar la información e intentarlo mas tarde, gracias!');";
+                    ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
+
                 }
 
             }

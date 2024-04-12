@@ -72,6 +72,7 @@
     <Content Include="Css\VentanaModal.css" />
     <Content Include="Img\logo.png" />
     <Content Include="Pages\CambioContrasenia.aspx" />
+    <Content Include="Pages\Configuracion_Parametros.aspx" />
     <Content Include="Pages\SolicitudAprobada.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Logout.aspx" />
@@ -92,6 +93,13 @@
     </Compile>
     <Compile Include="Pages\CambioContrasenia.aspx.designer.cs">
       <DependentUpon>CambioContrasenia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion_Parametros.aspx.cs">
+      <DependentUpon>Configuracion_Parametros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion_Parametros.aspx.designer.cs">
+      <DependentUpon>Configuracion_Parametros.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\SolicitudAprobada.aspx.cs">
       <DependentUpon>SolicitudAprobada.aspx</DependentUpon>

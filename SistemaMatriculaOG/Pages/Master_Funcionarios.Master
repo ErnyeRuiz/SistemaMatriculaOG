@@ -35,7 +35,7 @@
                             <a class="nav-link dropdown-toggle btn btn-info" style="color:white;" href="#" id="drop1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Configuraciones
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="drop1">
-                                <li><a class="dropdown-item" href="#">1</a></li>
+                                <li><a class="dropdown-item" href="Configuracion_Parametros.aspx">Configurar parámetros del sistema</a></li>
                             </ul>
                         </li>
 

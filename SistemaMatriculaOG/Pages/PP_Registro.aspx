@@ -2,5 +2,11 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h1>Funcionarios de registro</h1>
+    <div style="text-align:center;">
+        <h1>¡Bienvenido!</h1>
+        <div>
+            <asp:Label ID="lblNombreFuncionario" style="font-size:40px;color:darkblue" runat="server" Text="Nombre"></asp:Label>
+        </div>
+    </div>
+    
 </asp:Content>
