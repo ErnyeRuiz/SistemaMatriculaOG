@@ -12,14 +12,24 @@ namespace SistemaMatriculaOG.Pages
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (!IsPostBack) {
+                if (Session["Usuario"] != null)
+                {
+                    Entidades.Usuarios estudiante = (Entidades.Usuarios)Session["Usuario"];
+                    if (estudiante.IdRol != 1)
+                    {
+                        Response.Redirect("Logout.aspx");
+                    }
+                    Negocio.SolicitudesRegistro config = new Negocio.SolicitudesRegistro();
+                    Entidades.Estudiante Estudiante = config.TraerEstudiante(estudiante.Cedula);
+                    lblNombreEstudiante.Text = $"{Estudiante.NombreEstudiante} {Estudiante.Apellido1} {Estudiante.Apellido2}";
+                }
+                else
+                {
+                    Response.Redirect("Logout.aspx");
+                }
 
-            //if (await Negocio.SolicitudesGraduacion.CargarTiposOG())
-            //{
-            //    lblTexto.Text = "carga correcta";
-            //}
-            //else {
-            //    lblTexto.Text = "Carga incorrecta";
-            //}
+            }
             if (Session["Mensaje"] != null)
             {
                 //Mensaje en pantalla

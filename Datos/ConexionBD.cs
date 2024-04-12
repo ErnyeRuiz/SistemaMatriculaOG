@@ -7,6 +7,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Datos
 {
@@ -187,24 +188,30 @@ namespace Datos
         //Registrar Usuario
         public void RegistroUsuario(string cedula, string password,int rol)
         {
-            conexion.Open();
-            SqlCommand command = new SqlCommand("RegistrarUsuario", conexion);
+            try
+            {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("RegistrarUsuario", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@Cedula", cedula);
-            command.Parameters.AddWithValue("@Contrasena", password);
-            command.Parameters.AddWithValue("@IDRol", rol);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@Cedula", cedula);
+                command.Parameters.AddWithValue("@Contrasena", password);
+                command.Parameters.AddWithValue("@IDRol", rol);
 
-            command.ExecuteNonQuery();
+                command.ExecuteNonQuery();
 
-            conexion.Close();
-
+                conexion.Close();
+            }
+            catch { 
+             //Error de BD
+            }
         }
 
         //Registrar Estudiante
-        public void RegistroEstudiante(string cedula,string Nombre,string Apellido1,string Apellido2
+        public string RegistroEstudiante(string cedula,string Nombre,string Apellido1,string Apellido2
             ,string Nacionalidad,string Correo,string telefono,DateTime FechaNac,int IDCarrera)
         {
+            string respuesta = "";
             try {
                 conexion.Open();
                 SqlCommand command = new SqlCommand("RegistrarEstudiante", conexion);
@@ -216,18 +223,35 @@ namespace Datos
                 command.Parameters.AddWithValue("@Apellido2", Apellido2);
                 command.Parameters.AddWithValue("@Nacionalidad", Nacionalidad);
                 command.Parameters.AddWithValue("@Correo", Correo);
-                command.Parameters.AddWithValue("@Telefono", telefono);
+                if (telefono.Equals(""))
+                {
+                    command.Parameters.AddWithValue("@Telefono", DBNull.Value);
+                }
+                else { 
+                    command.Parameters.AddWithValue("@Telefono", telefono);
+                }
+                
                 command.Parameters.AddWithValue("@FechaNac", FechaNac);
                 command.Parameters.AddWithValue("@IDCarrera", IDCarrera);
 
 
 
-                command.ExecuteNonQuery();
+                using (SqlDataReader reader = command.ExecuteReader())
+                {
+                    while (reader.Read()) {
 
-                conexion.Close();
+                        respuesta = reader["respuesta"].ToString();
+                    }
+                
+                }
+
+                    conexion.Close();
+
             } catch {
                 //Error de BD
+                respuesta = "No registrado";
             }
+            return respuesta;
         }
 
         //Traer lista de carreras
@@ -262,16 +286,23 @@ namespace Datos
         //Registrar solicitud
         public void RegistroSolicitudDeRegistro(string cedula, int IDEstadoSolicitud)
         {
-            conexion.Open();
-            SqlCommand command = new SqlCommand("IngresarSoliRegistro", conexion);
+            try
+            {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("IngresarSoliRegistro", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@CedulaEstudiante", cedula);
-            command.Parameters.AddWithValue("@idEstadoSolicitud", IDEstadoSolicitud);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@CedulaEstudiante", cedula);
+                command.Parameters.AddWithValue("@idEstadoSolicitud", IDEstadoSolicitud);
 
-            command.ExecuteNonQuery();
+                command.ExecuteNonQuery();
 
-            conexion.Close();
+                conexion.Close();
+            }
+            catch { 
+                //error de BD
+            }
+            
 
         }
 
@@ -379,19 +410,26 @@ namespace Datos
 
         public void CambiarEstadoSolicitudRegistro(int idEstado, int IdSolicitudRegistro, string CedulaFuncionario, string Motivo)
         {
-            conexion.Open();
-            SqlCommand command = new SqlCommand("CambiarEstadoSoliRegistro", conexion);
+            try
+            {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("CambiarEstadoSoliRegistro", conexion);
 
-            command.CommandType = CommandType.StoredProcedure;
-            command.Parameters.AddWithValue("@IdEstado", idEstado);
-            command.Parameters.AddWithValue("@IdSolicitud", IdSolicitudRegistro);
-            command.Parameters.AddWithValue("@Motivo", Motivo);
-            command.Parameters.AddWithValue("@CedulaFuncionario", CedulaFuncionario);
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@IdEstado", idEstado);
+                command.Parameters.AddWithValue("@IdSolicitud", IdSolicitudRegistro);
+                command.Parameters.AddWithValue("@Motivo", Motivo);
+                command.Parameters.AddWithValue("@CedulaFuncionario", CedulaFuncionario);
 
 
-            command.ExecuteNonQuery();
+                command.ExecuteNonQuery();
 
-            conexion.Close();
+                conexion.Close();
+            }
+            catch { 
+                //Error BD
+            }
+            
         }
 
         #endregion
@@ -417,6 +455,67 @@ namespace Datos
         }
         #endregion
 
+        #region CambiosParametros
+        public Entidades.ParametrosSistema TraerParametrosSistema() {
+            Entidades.ParametrosSistema parametros=new ParametrosSistema();
+
+            conexion.Open();
+            SqlCommand command = new SqlCommand("ConsultarParametrosSistema", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    parametros.FechaHoraCierre = DateTime.Parse(reader["FechaHoraCierre"].ToString());
+                    parametros.FechaHoraInicio = DateTime.Parse(reader["FechaHoraInicio"].ToString());
+                }
+            }
+            conexion.Close();
+
+            return parametros;
+        }
+
+        public void ModificarParametrosSistema(DateTime FechaHoraInicio, DateTime FechaHoraCierre, string CedulaFuncionario) {
+            try {
+                conexion.Open();
+                SqlCommand command = new SqlCommand("ModificarParametrosSistema", conexion);
+
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.AddWithValue("@FechaHoraInicio", FechaHoraInicio);
+                command.Parameters.AddWithValue("@FechaHoraCierre", FechaHoraCierre);
+                command.Parameters.AddWithValue("@CedulaFuncionario", CedulaFuncionario);
+
+                command.ExecuteNonQuery();
+
+                conexion.Close();
+
+            }
+            catch { 
+                //Error de BD
+            }
+        }
+
+
+        public string NombreFuncionarioUltimoCambio() {
+            string NombreFuncionario = "";
+
+            conexion.Open();
+            SqlCommand command = new SqlCommand("TraerFuncionarioUltimoCambio", conexion);
+
+            command.CommandType = CommandType.StoredProcedure;
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                while (reader.Read())
+                {
+                    NombreFuncionario = $"{reader["NombreCompletoF"].ToString()};{reader["FechaHoraUltimoCambio"].ToString()}";
+                }
+            }
+            conexion.Close();
+
+            return NombreFuncionario;
+        }
+        #endregion
 
         #endregion
 

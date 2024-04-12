@@ -1,10 +1,7 @@
 ﻿<%@ Page Title="Envío de solicitudes de opción de graduación" Language="C#" MasterPageFile="~/Pages/Master_Estudiantes.Master" AutoEventWireup="true" CodeBehind="Solicitud_OG.aspx.cs" Inherits="SistemaMatriculaOG.Pages.Solicitud_OG" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
-    <link href="../Css/RegistroSolicitudOG.css" rel="stylesheet" /> 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="containerOG1">
