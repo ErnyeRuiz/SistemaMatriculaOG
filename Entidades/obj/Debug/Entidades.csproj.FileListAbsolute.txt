@@ -53,3 +53,10 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Entidades\o
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ernye\Documents\ProyectoMatriculaOG\V12\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
