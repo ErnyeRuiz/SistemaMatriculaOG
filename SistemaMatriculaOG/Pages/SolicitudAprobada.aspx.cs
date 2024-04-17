@@ -8,29 +8,95 @@ using System.Web.UI.WebControls;
 
 namespace SistemaMatriculaOG.Pages
 {
-    public partial class SolicitudAprobada : System.Web.UI.Page
+    public partial class _1 : System.Web.UI.Page
     {
+
         Negocio.SolicitudgraduacionAprobadas SolicitudesR = new Negocio.SolicitudgraduacionAprobadas();
         protected void Page_Load(object sender, EventArgs e)
-
         {
-
+            List<Entidades.SolicitudesGraduacion> solicitudes = new List<Entidades.SolicitudesGraduacion>();
             if (!IsPostBack)
             {
-                // string connectionString = "Data Source=SistemaSolicitudesOG;Initial Catalog=tiusr21pl.cuc-carrera-ti.ac.cr\\MSSQLSERVER2019;User ID=TI165Grupo04;Password=Fbh55p0$9;";
-                SolicitudesR = new Negocio.SolicitudgraduacionAprobadas();
-                List<Entidades.SolicitudesGraduacion> solicitudes = SolicitudesR.ObtenerSolicitudesAprobadas();
 
-                GridViewSolicitudes.DataSource = solicitudes;
+
+                SolicitudesR = new Negocio.SolicitudgraduacionAprobadas();
+                List<Entidades.TipoGraduacion> ListaTiposOG= SolicitudesR.CargarTiposOG();
+
+                if (Session["Usuario"] != null
+                  )
+                {
+                    Entidades.Usuarios direc = (Entidades.Usuarios)(Session["Usuario"]);
+
+                    if (direc.IdRol != 3)
+                    {
+                        Response.Redirect("Logout.aspx");
+                    }
+                    Entidades.DirectoresCarrera Dir = SolicitudesR.TraerDirector(direc.Cedula);
+
+                    solicitudes = SolicitudesR.ObtenerSolicitudesAprobadas(Convert.ToInt32(Dir._CarreraDirectorC));
+
+                }
+
+                else
+                {
+                    Response.Redirect("Logout.aspx");
+                }
+
+                DataTable dt=new DataTable();
+                dt.Columns.Add("IdSolicitudGraduacion", typeof(string));
+                dt.Columns.Add("CedulaEstudiante", typeof(string));
+                dt.Columns.Add("FechaHoraEnvio", typeof(string));
+                dt.Columns.Add("FechaHoraRespuesta", typeof(string));
+                dt.Columns.Add("Tipo graduación", typeof(string));
+                dt.Columns.Add("Estado", typeof(string));
+                foreach (Entidades.SolicitudesGraduacion sol in solicitudes)
+                {
+                    DataRow row= dt.NewRow();
+                    
+                    row["IdSolicitudGraduacion"] = sol.IdSolicitudGraduacion;
+                    row["CedulaEstudiante"] = sol.CedulaEstudiante;
+                    row["FechaHoraEnvio"] = sol.FechaHoraEnvio;
+                    row["FechaHoraRespuesta"] = sol.FechaHoraRespuesta;
+                    row["Tipo graduación"] = ListaTiposOG.Find(T => T.IdTipoGraduacion == sol.IdTipoG).NombreTipoG;
+                    row["Estado"] = "Aprobada";
+
+                    dt.Rows.Add(row);
+                    
+                }
+
+
+                
+
+
+
+                GridViewSolicitudes.DataSource = dt;
                 GridViewSolicitudes.DataBind();
             }
-
         }
 
         protected void GridViewSolicitudes_RowCommand(object sender, GridViewCommandEventArgs e)
         {
+
             if (e.CommandName == "Editar") // Verifica si el comando es "Editar"
             {
+
+                if (Session["Usuario"] != null
+                 )
+                {
+                    Entidades.Usuarios direc = (Entidades.Usuarios)(Session["Usuario"]);
+
+                    if (direc.IdRol != 3)
+                    {
+                        Response.Redirect("Logout.aspx");
+                    } 
+                    Entidades.DirectoresCarrera Dir = SolicitudesR.TraerDirector(direc.Cedula);
+                }
+                else
+                {
+                    Response.Redirect("Logout.aspx");
+                }
+
+
                 contenedor.Visible = true;
 
                 int rowIndex = Convert.ToInt32(e.CommandArgument); // Obtiene el índice de la fila que se seleccionó
@@ -97,13 +163,9 @@ namespace SistemaMatriculaOG.Pages
             {
                 contenedor.Visible = false;
             }
+
+
+
         }
-
-
-
-
-
     }
 }
-
-

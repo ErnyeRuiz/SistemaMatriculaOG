@@ -18,55 +18,6 @@ C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-S
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.rsp
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.exe
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.exe.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.rsp
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CSharp.Core.targets
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Managed.Core.targets
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Win32.Primitives.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.AppContext.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Collections.Immutable.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Console.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.StackTrace.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Globalization.Calendars.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.ZipFile.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.Primitives.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Net.Http.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Net.Sockets.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Reflection.Metadata.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Encoding.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Primitives.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Text.Encoding.CodePages.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Threading.Tasks.Extensions.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.ValueTuple.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.ReaderWriter.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XmlDocument.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.XDocument.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.exe
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.exe.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.rsp
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll
@@ -491,3 +442,120 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\SistemaMatr
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V1.2\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.AssemblyReference.cache
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CoreCompileInputs.cache
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\SistemaMatriculaOG.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csc.exe
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csc.exe.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csc.rsp
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csi.exe
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csi.exe.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\csi.rsp
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.AppContext.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Console.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Net.Http.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.ValueTuple.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\vbc.exe
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\vbc.exe.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\vbc.rsp
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Entidades.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Negocio.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Datos.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Entidades.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Entidades.dll.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Negocio.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Negocio.dll.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Datos.pdb
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\bin\Datos.dll.config
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\obj\Debug\SistemaM.DC7B3785.Up2Date
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
+C:\Users\Andrey Jimenez\Desktop\Nueva carpeta\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.rsp
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.exe
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.exe.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csi.rsp
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.AppContext.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Console.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Net.Http.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.ValueTuple.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.exe
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.exe.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.rsp
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe.config

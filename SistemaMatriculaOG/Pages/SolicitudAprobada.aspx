@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/Master_Funcionarios.Master" AutoEventWireup="true" CodeBehind="SolicitudAprobada.aspx.cs" Inherits="SistemaMatriculaOG.Pages.SolicitudAprobada" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Pages/Master_DirCarrera.Master" AutoEventWireup="true" CodeBehind="SolicitudAprobada.aspx.cs" Inherits="SistemaMatriculaOG.Pages._1" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <style>
         .gridview-container {
@@ -36,8 +35,8 @@
                 <asp:BoundField DataField="CedulaEstudiante" HeaderText="Cédula Estudiante" />
                 <asp:BoundField DataField="FechaHoraEnvio" HeaderText="Fecha y Hora Envío" DataFormatString="{0:yyyy-MM-dd HH:mm:ss}" />
                 <asp:BoundField DataField="FechaHoraRespuesta" HeaderText="Fecha y Hora Respuestas" />
-                <asp:BoundField DataField="idTipoG" HeaderText="Tipo de Graduacion" />
-                <asp:BoundField DataField="IdEstado" HeaderText="ID Estado" />
+                <asp:BoundField DataField="Tipo graduación" HeaderText="Tipo de Graduacion" />
+                <asp:BoundField DataField="Estado" HeaderText="Estado" />
                 <asp:TemplateField HeaderText="Acción">
                     <ItemTemplate>
                         <asp:Button ID="btnEditar" runat="server" Text="Seleccionar" class="btn btn-primary" Style="color: white" CommandName="Editar" CommandArgument='<%# Eval("IdSolicitudGraduacion") %>' />
