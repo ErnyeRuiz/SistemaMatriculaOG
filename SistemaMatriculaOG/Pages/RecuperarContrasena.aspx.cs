@@ -31,26 +31,36 @@ namespace SistemaMatriculaOG
             string Cedula = TxtCedula.Text;
             string NombreEstudiante = estudiante.NombreEstudiante + " " + estudiante.Apellido1 + " " + estudiante.Apellido2;
 
-            if (estudiante.CedulaEstudiante == Cedula)
-
-            {
-                GeneradorContrasenias generador = new GeneradorContrasenias();
-                string contraseniatemporal = generador.GenerarContrasenia();
-
-                Correos correo = new Correos();
-
+            if (estudiante != null) {
+                //Validamos que haya hecho su primer inicio de sesion
                 CambioContraseña con = new CambioContraseña();
-                con.RecuperarContra(estudiante.CedulaEstudiante);
+                string EstadoPrimerIngreso = con.ValidarPrimerIngreso(estudiante.CedulaEstudiante);
 
-                con.CambioContrasenia(estudiante.CedulaEstudiante, contraseniatemporal, true);
+                if (EstadoPrimerIngreso == "1") //1 si ya iniciado sesion al menos una vez
+                {
+                    GeneradorContrasenias generador = new GeneradorContrasenias();
+                    string contraseniatemporal = generador.GenerarContrasenia();
 
-                string CorreooEnviado = correo.EnviodeCredenciales(estudiante.Correo, estudiante.CedulaEstudiante, contraseniatemporal, NombreEstudiante);
-
-                string mensaje = "En cuanto sea respondida su solicitud de recuperación de contraseña le enviaremos sus credenciales por correo electrónico, por favor estar al pendiente de su bandeja de entrada, gracias.";
-                ScriptManager.RegisterStartupScript(this, GetType(), "mostrarMensaje", $"mostrarMensaje('{mensaje}')", true);
+                    Correos correo = new Correos();
 
 
-            }
+                    con.RecuperarContra(estudiante.CedulaEstudiante);
+
+                    con.CambioContrasenia(estudiante.CedulaEstudiante, contraseniatemporal, true);
+
+                    string CorreooEnviado = correo.EnviodeCredenciales(estudiante.Correo, estudiante.CedulaEstudiante, contraseniatemporal, NombreEstudiante);
+
+                    string mensaje = "En cuanto sea respondida su solicitud de recuperación de contraseña le enviaremos sus credenciales por correo electrónico, por favor estar al pendiente de su bandeja de entrada, gracias.";
+                    ScriptManager.RegisterStartupScript(this, GetType(), "mostrarMensaje", $"mostrarMensaje('{mensaje}')", true);
+                }
+                else {
+                    ScriptManager.RegisterStartupScript(this, GetType(), "mostrarError", $"mostrarError('{EstadoPrimerIngreso}')", true);
+                    return;
+                }
+
+
+
+                }
             else
             {
                 ScriptManager.RegisterStartupScript(this, GetType(), "mostrarError", "mostrarError('Cédula no pertenece a ningún usuario')", true);
