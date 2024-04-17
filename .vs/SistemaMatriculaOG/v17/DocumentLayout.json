@@ -1,42 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\",
+  "WorkspaceRootPath": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\sistemamatriculaog\\pages\\master_funcionarios.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\master_dircarrera.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\master_dircarrera.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\master_funcionarios.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
       "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\master_funcionarios.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\sistemamatriculaog\\pages\\solicitudaprobada.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\solicitudaprobada.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\solicitudaprobada.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\sistemamatriculaog\\pages\\solicitudaprobada.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\solicitudaprobada.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\solicitudaprobada.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{651748CD-2478-4A67-83C8-BA93794A0162}|Negocio\\Negocio.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\negocio\\solicitudgraduacionaprobadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{651748CD-2478-4A67-83C8-BA93794A0162}|Negocio\\Negocio.csproj|solutionrelative:negocio\\solicitudgraduacionaprobadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{651748CD-2478-4A67-83C8-BA93794A0162}|Negocio\\Negocio.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\negocio\\solicitudesgraduacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{651748CD-2478-4A67-83C8-BA93794A0162}|Negocio\\Negocio.csproj|solutionrelative:negocio\\solicitudesgraduacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\sistemamatriculaog\\pages\\responder_solicitudesog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\responder_solicitudesog.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\sistemamatriculaog\\pages\\responder_solicitudesog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\responder_solicitudesog.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D1F5770E-599D-4DBD-809E-79DF34B14D1C}|Datos\\Datos.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\datos\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1F5770E-599D-4DBD-809E-79DF34B14D1C}|Datos\\Datos.csproj|solutionrelative:datos\\conexionbd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\sistemamatriculaog\\pages\\solicitud_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\solicitud_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+      "AbsoluteMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|c:\\users\\andrey jimenez\\desktop\\nueva carpeta\\sistemamatriculaog\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6B3C23C6-3D79-4618-94FB-6168E8C897EE}|SistemaMatriculaOG\\SistemaMatriculaOG.csproj|solutionrelative:sistemamatriculaog\\pages\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
   "DocumentGroupContainers": [
@@ -63,111 +51,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Master_Funcionarios.Master",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
+              "Title": "Master_DirCarrera.Master",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Master_DirCarrera.Master",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Master_DirCarrera.Master",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Master_DirCarrera.Master",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Master_DirCarrera.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-11T17:29:29.662Z",
+              "WhenOpened": "2024-04-17T03:34:23.158Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SolicitudAprobada.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:25:32.353Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SolicitudAprobada.aspx",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
+              "Title": "Master_Funcionarios.Master",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Master_Funcionarios.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-11T17:24:27.396Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConexionBD.cs",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Datos\\ConexionBD.cs",
-              "RelativeDocumentMoniker": "Datos\\ConexionBD.cs",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Datos\\ConexionBD.cs",
-              "RelativeToolTip": "Datos\\ConexionBD.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAIwIIAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:23:34.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "SolicitudgraduacionAprobadas.cs",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Negocio\\SolicitudgraduacionAprobadas.cs",
-              "RelativeDocumentMoniker": "Negocio\\SolicitudgraduacionAprobadas.cs",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Negocio\\SolicitudgraduacionAprobadas.cs",
-              "RelativeToolTip": "Negocio\\SolicitudgraduacionAprobadas.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAowDYAAABfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:22:02.858Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Solicitud_Registro.aspx",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Solicitud_Registro.aspx",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Solicitud_Registro.aspx",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Solicitud_Registro.aspx",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Solicitud_Registro.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000192|",
-              "WhenOpened": "2024-04-11T17:21:29.102Z"
+              "WhenOpened": "2024-04-17T03:34:13.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "SolicitudesGraduacion.cs",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Negocio\\SolicitudesGraduacion.cs",
-              "RelativeDocumentMoniker": "Negocio\\SolicitudesGraduacion.cs",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Negocio\\SolicitudesGraduacion.cs",
-              "RelativeToolTip": "Negocio\\SolicitudesGraduacion.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAAAE0AAABRAAAA",
+              "Title": "SolicitudAprobada.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:21:29.405Z"
+              "WhenOpened": "2024-04-17T03:26:43.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SolicitudAprobada.aspx",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\SolicitudAprobada.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-04-17T03:26:03.813Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Login.aspx.cs",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Login.aspx.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowD8AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T03:14:59.543Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Responder_SolicitudesOG.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx.cs",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx.cs",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx.cs",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx.cs",
-              "ViewState": "AQIAAEsAAAAAAAAAAAAAAB0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T17:21:29.665Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Responder_SolicitudesOG.aspx",
-              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx",
-              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx",
-              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx",
-              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Responder_SolicitudesOG.aspx",
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Login.aspx",
+              "RelativeDocumentMoniker": "SistemaMatriculaOG\\Pages\\Login.aspx",
+              "ToolTip": "C:\\Users\\Andrey Jimenez\\Desktop\\Nueva carpeta\\SistemaMatriculaOG\\Pages\\Login.aspx",
+              "RelativeToolTip": "SistemaMatriculaOG\\Pages\\Login.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-04-11T17:21:29.904Z"
+              "WhenOpened": "2024-04-17T03:14:50.956Z",
+              "EditorCaption": ""
             }
           ]
         }

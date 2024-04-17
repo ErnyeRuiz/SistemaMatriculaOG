@@ -11,7 +11,7 @@ namespace SistemaMatriculaOG.Pages
 {
 
 
-    public partial class SolicitudAprobada
+    public partial class _1
     {
 
         /// <summary>

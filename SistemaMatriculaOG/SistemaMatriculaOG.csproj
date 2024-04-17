@@ -71,10 +71,10 @@
     <Content Include="Css\RegistroSolicitudOG.css" />
     <Content Include="Css\VentanaModal.css" />
     <Content Include="Img\logo.png" />
+    <Content Include="Pages\SolicitudAprobada.aspx" />
     <Content Include="Pages\CambioContrasenia.aspx" />
     <Content Include="Pages\Configuracion_Parametros.aspx" />
     <Content Include="Pages\RecuperarContrasena.aspx" />
-    <Content Include="Pages\SolicitudAprobada.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\Logout.aspx" />
     <Content Include="Pages\PP_DirCarrera.aspx" />
@@ -88,6 +88,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\SolicitudAprobada.aspx.cs">
+      <DependentUpon>SolicitudAprobada.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SolicitudAprobada.aspx.designer.cs">
+      <DependentUpon>SolicitudAprobada.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\CambioContrasenia.aspx.cs">
       <DependentUpon>CambioContrasenia.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -108,13 +115,6 @@
     </Compile>
     <Compile Include="Pages\RecuperarContrasena.aspx.designer.cs">
       <DependentUpon>RecuperarContrasena.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Pages\SolicitudAprobada.aspx.cs">
-      <DependentUpon>SolicitudAprobada.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Pages\SolicitudAprobada.aspx.designer.cs">
-      <DependentUpon>SolicitudAprobada.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
