@@ -534,9 +534,112 @@ namespace Datos
             }
         }
 
-     
+
         #endregion
 
+
+        #region RegistrarSolicitudGraduacion
+        public void RegistrarSolicitudGraduacion(SolicitudGraduacionregistro solicitud)
+        {
+            try
+            {
+                // Abre la conexión a la base de datos
+                conexion.Open();
+
+                // Configura el comando SQL para ejecutar el procedimiento almacenado "[dbo].[RegistrarSolicitudGraduacionFuncionarios]"
+                using (SqlCommand command = new SqlCommand("[dbo].[RegistrarSolicitudGraduacionFuncionarios]", conexion))
+                {
+                    command.CommandType = CommandType.StoredProcedure;
+
+                    // Añade los parámetros del procedimiento almacenado
+                    command.Parameters.AddWithValue("@CedulaEstudiante", solicitud.CedulaEstudiante);
+
+                    // Convertir el valor de OpcionGraduacion de cadena (string) a entero (int) antes de pasarlo al procedimiento almacenado
+                    int idTipoGraduacion;
+                    if (!int.TryParse(solicitud.OpcionGraduacion, out idTipoGraduacion))
+                    {
+                        throw new InvalidCastException("No se pudo convertir la opción de graduación a un número entero.");
+                    }
+
+                    command.Parameters.AddWithValue("@IdTipoG", idTipoGraduacion);
+
+                    // Ya no incluimos la cédula del funcionario en los parámetros
+                    // Elimina la línea de código que añade el parámetro de la cédula del funcionario
+                    //command.Parameters.AddWithValue("@CedulaFuncionario", solicitud.CedulaFuncionario ?? (object)DBNull.Value);
+
+                    // Ejecuta el procedimiento almacenado y obtiene el mensaje de retorno
+                    using (SqlDataReader reader = command.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            // Captura el mensaje o error que devuelve el procedimiento almacenado
+                            if (reader["Mensaje"] != DBNull.Value)
+                            {
+                                string mensaje = reader["Mensaje"].ToString();
+                            }
+                            else if (reader["Error"] != DBNull.Value)
+                            {
+                                string error = reader["Error"].ToString();
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                // Manejo de errores
+                Console.WriteLine($"Error al registrar la solicitud de graduación: {ex.Message}");
+                throw;
+            }
+            finally
+            {
+                // Asegura que la conexión se cierre
+                if (conexion.State == ConnectionState.Open)
+                {
+                    conexion.Close();
+                }
+            }
+        }
+
+
+        public List<TipoGraduacion> ObtenerTiposGraduacion()
+        {
+            List<TipoGraduacion> tiposGraduacion = new List<TipoGraduacion>();
+
+            // Crear un comando SQL para ejecutar el procedimiento almacenado
+            SqlCommand command = new SqlCommand("[TI165Grupo04].[TraerTiposOG]", conexion);
+            command.CommandType = CommandType.StoredProcedure;
+
+            // Abrir la conexión a la base de datos
+            conexion.Open();
+
+            // Ejecutar el comando y obtener un lector de datos
+            using (SqlDataReader reader = command.ExecuteReader())
+            {
+                // Leer los datos obtenidos del procedimiento almacenado
+                while (reader.Read())
+                {
+                    // Crear un objeto TipoGraduacion para almacenar los datos de cada tipo de graduación
+                    TipoGraduacion tipoGraduacion = new TipoGraduacion
+                    {
+                        IdTipoGraduacion = reader.GetInt32(reader.GetOrdinal("IdTipoGraduacion")),
+                        NombreTipoG = reader.GetString(reader.GetOrdinal("NombreTipoG"))
+                    };
+
+                    // Agregar el objeto a la lista de tipos de graduación
+                    tiposGraduacion.Add(tipoGraduacion);
+                }
+            }
+
+            // Cerrar la conexión a la base de datos
+            conexion.Close();
+
+            // Devolver la lista de tipos de graduación
+            return tiposGraduacion;
+        }
+
+
+        #endregion
     }
 
 }
