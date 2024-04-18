@@ -47,15 +47,10 @@
                                 <li><a class="dropdown-item" href="Responder_SolicitudesOG.aspx">Responder solicitud de opción de graduación</a></li>
                             </ul>
                         </li>
-
-                        <li class="nav-item  dropdown " style="font-size: 20px;margin-left:2%;">
-                            <a class="nav-link dropdown-toggle btn btn-info" style="color:white;" href="#" id="drop3" role="button" data-bs-toggle="dropdown" aria-expanded="false">Mantenimiento solicitudes
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="drop3">
-                                <li><a class="dropdown-item" href="#.aspx">Agregar solicitud de registro</a></li>
-                                
-                            </ul>
+                        <li class="nav-item" style="width:500px;margin-left:2%">
+                            <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;font-size: 20px;" href="RegistrosolicituddeOGFuncionarios.aspx">Agregar solicitud de opción de graduación</a>
                         </li>
+                        
 
                     </ul>
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="font-size: 30px;">

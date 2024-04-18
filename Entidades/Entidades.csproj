@@ -58,6 +58,7 @@
     <Compile Include="SistemaMatriculaOGdbContext.cs" />
     <Compile Include="SolicitudesGraduacion.cs" />
     <Compile Include="SolicitudesRegistro.cs" />
+    <Compile Include="SolicitudGraduacionregistro.cs" />
     <Compile Include="TipoGraduacion.cs" />
     <Compile Include="Usuarios.cs" />
     <Compile Include="VistaSolicitudesPendientes.cs" />

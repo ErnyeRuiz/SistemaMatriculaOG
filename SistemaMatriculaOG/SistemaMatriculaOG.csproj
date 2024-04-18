@@ -71,6 +71,7 @@
     <Content Include="Css\RegistroSolicitudOG.css" />
     <Content Include="Css\VentanaModal.css" />
     <Content Include="Img\logo.png" />
+    <Content Include="Pages\RegistrosolicituddeOGFuncionarios.aspx" />
     <Content Include="Pages\SolicitudAprobada.aspx" />
     <Content Include="Pages\CambioContrasenia.aspx" />
     <Content Include="Pages\Configuracion_Parametros.aspx" />
@@ -88,6 +89,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pages\RegistrosolicituddeOGFuncionarios.aspx.cs">
+      <DependentUpon>RegistrosolicituddeOGFuncionarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\RegistrosolicituddeOGFuncionarios.aspx.designer.cs">
+      <DependentUpon>RegistrosolicituddeOGFuncionarios.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SolicitudAprobada.aspx.cs">
       <DependentUpon>SolicitudAprobada.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
