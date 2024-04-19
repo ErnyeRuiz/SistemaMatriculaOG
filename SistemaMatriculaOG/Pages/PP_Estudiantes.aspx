@@ -8,5 +8,6 @@
         <div>
             <asp:Label ID="lblNombreEstudiante" style="font-size:40px;color:darkblue" runat="server" Text="Nombre"></asp:Label>
         </div>
+        <h1>Estudiante</h1>
     </div>
 </asp:Content>

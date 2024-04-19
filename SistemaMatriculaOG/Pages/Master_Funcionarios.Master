@@ -43,12 +43,12 @@
                             <a class="nav-link dropdown-toggle btn btn-info" style="color:white;" href="#" id="drop2" role="button" data-bs-toggle="dropdown" aria-expanded="false">Responder solicitudes
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="drop2">
-                                <li><a class="dropdown-item" href="Responder_Registro.aspx">Responder solicitud de registro</a></li>
+                                <li><a class="dropdown-item" href="Responder_Registro.aspx">Respuestas a solicitudes de registro al sistema</a></li>
                                 <li><a class="dropdown-item" href="Responder_SolicitudesOG.aspx">Solicitudes de opcion de graduación</a></li>
                             </ul>
                         </li>
                         <li class="nav-item" style="width:500px;margin-left:2%">
-                            <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;font-size: 20px;" href="RegistrosolicituddeOGFuncionarios.aspx">Agregar solicitud de opción de graduación</a>
+                            <a class="btn btn-info" aria-current="page" style="margin-left: 3px; color: white;font-size: 20px;" href="RegistrosolicituddeOGFuncionarios.aspx">Agregar solicitud</a>
                         </li>
                         
 

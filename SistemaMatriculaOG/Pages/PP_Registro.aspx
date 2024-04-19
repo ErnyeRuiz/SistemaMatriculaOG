@@ -7,6 +7,7 @@
         <div>
             <asp:Label ID="lblNombreFuncionario" style="font-size:40px;color:darkblue" runat="server" Text="Nombre"></asp:Label>
         </div>
+        <h1>Funcionario de registro</h1>
     </div>
     
 </asp:Content>
