@@ -44,7 +44,7 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="drop2">
                                 <li><a class="dropdown-item" href="Responder_Registro.aspx">Responder solicitud de registro</a></li>
-                                <li><a class="dropdown-item" href="Responder_SolicitudesOG.aspx">Responder solicitud de opción de graduación</a></li>
+                                <li><a class="dropdown-item" href="Responder_SolicitudesOG.aspx">Solicitudes de opcion de graduación</a></li>
                             </ul>
                         </li>
                         <li class="nav-item" style="width:500px;margin-left:2%">

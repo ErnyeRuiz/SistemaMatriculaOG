@@ -163,14 +163,14 @@ namespace SistemaMatriculaOG.Pages
                 if (solicitud != null)
                 {
                     lblIdSolicitud.Text = solicitud.IdSolicitud.ToString();
-                    lblNombreEstudiante.Text = solicitud.Nombre + " " + solicitud.Apellidos;
-                    lblCedula.Text = solicitud.Cedula;
-                    lblCorreo.Text = solicitud.Correo;
-                    lblTelefono.Text = solicitud.NumeroTelefono;
-                    lblCarrera.Text = solicitud.Carrera;
-                    lblTipo.Text = solicitud.Tipo;
-                    lblFechaHoraEnvio.Text = solicitud.Fecha.ToString();
-                    lblEstadoSolicitud.Text = solicitud.Estado;
+                    lblNombreEstudiante.Text = "Nombre y apellidos: " + solicitud.Nombre + " " + solicitud.Apellidos;
+                    lblCedula.Text = "Cedula: " + solicitud.Cedula;
+                    lblCorreo.Text = "Correo electronico: " + solicitud.Correo;
+                    lblTelefono.Text = "Número de teléfono: " + solicitud.NumeroTelefono;
+                    lblCarrera.Text = "Carrera: " + solicitud.Carrera;
+                    lblTipo.Text = "Tipo: " + solicitud.Tipo;
+                    lblFechaHoraEnvio.Text = "Fecha y hora de envío de solicitud: " + solicitud.Fecha.ToString();
+                    lblEstadoSolicitud.Text = "Estado: " + solicitud.Estado;
                 }
             }
             catch (Exception)
