@@ -141,7 +141,7 @@ namespace SistemaMatriculaOG.Pages
                     string scriptalerta =
                     "toastr.options.closeButton = true;" +
                     "toastr.options.positionClass = 'toast-bottom-right';" +
-                    $"toastr.error('¡Ha ocurrido un error al intentar registrar la información del estudiante, por favor verificar la información e intentarlo mas tarde, gracias!');";
+                    $"toastr.error('¡La información que intenta registrar en el sistema ya pertenece a un estudiante anteriormente registrado, por favor comunicarse con el departamento de registro para dar solución al problema, gracias!');";
                     ScriptManager.RegisterStartupScript(this, GetType(), "ToastrError", scriptalerta, true);
 
                 }
