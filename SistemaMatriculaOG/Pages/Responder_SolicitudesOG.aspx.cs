@@ -35,6 +35,15 @@ namespace SistemaMatriculaOG.Pages
              rptSolicitudesOG.DataSource = listaSolicitudesPendientes;
 
                 rptSolicitudesOG.DataBind();
+
+                if (listaSolicitudesPendientes.Count == 0)
+                {
+                    string scriptalerta =
+                                              "toastr.options.closeButton = true;" +
+                                              "toastr.options.positionClass = 'toast-bottom-right';" +
+                                              $"toastr.warning('No hay solicitudes para mostrar');";
+                    ScriptManager.RegisterStartupScript(this, GetType(), "ToastrWarning", scriptalerta, true);
+                }
             }
             catch (Exception)
             {
