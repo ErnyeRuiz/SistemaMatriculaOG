@@ -4,12 +4,6 @@ C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-S
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Entidades\obj\Debug\Entidades.dll
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Entidades\obj\Debug\Entidades.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
@@ -17,7 +11,6 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\obj
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
@@ -67,3 +60,10 @@ C:\Users\Sebas\Desktop\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.A
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Entidades\obj\Debug\Entidades.pdb

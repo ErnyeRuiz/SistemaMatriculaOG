@@ -22,11 +22,21 @@ namespace SistemaMatriculaOG.Pages
                 lbldato4.Text = param.FechaHoraCierre.ToString("HH:mm tt");
 
                 //Datos del funcionario que realizó el ultimo cambio
-                string[] data = config.NombreCompletoFuncionarioUltimoCambio().Split(';');
-                DateTime FechaHoraUltimoCambio = DateTime.Parse(data[1]);
-                lblNombreFuncionario.Text = data[0];
-                lblFechaUltimo.Text ="Fecha de último cambio: "+ FechaHoraUltimoCambio.ToShortDateString();
-                lblHoraUltimo.Text ="Hora de último cambio: "+ FechaHoraUltimoCambio.ToString("HH:mm tt");
+                try
+                {
+                    string[] data = config.NombreCompletoFuncionarioUltimoCambio().Split(';');
+                    DateTime FechaHoraUltimoCambio = DateTime.Parse(data[1]);
+                    lblNombreFuncionario.Text = data[0];
+                    lblFechaUltimo.Text ="Fecha de último cambio: "+ FechaHoraUltimoCambio.ToShortDateString();
+                    lblHoraUltimo.Text ="Hora de último cambio: "+ FechaHoraUltimoCambio.ToString("HH:mm tt");
+                } 
+                catch
+                {
+                    lblNombreFuncionario.Text = "No registrado";
+                    lblFechaUltimo.Text = "Fecha de último cambio: " + "No disponible";
+                    lblHoraUltimo.Text = "Hora de último cambio: " + "No disponible";
+                }
+                
 
             }
 
