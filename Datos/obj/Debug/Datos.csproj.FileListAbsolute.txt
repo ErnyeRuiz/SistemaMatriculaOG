@@ -76,84 +76,6 @@ C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-S
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Datos\obj\Debug\Datos.dll
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Datos\obj\Debug\Datos.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Core.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Identity.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Data.SqlClient.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Logging.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Tokens.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Buffers.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Configuration.ConfigurationManager.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IO.FileSystem.AccessControl.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.Data.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.AccessControl.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Permissions.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Principal.Windows.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Encodings.Web.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Json.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.ValueTuple.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Core.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Identity.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Data.SqlClient.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Logging.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Tokens.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Buffers.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Configuration.ConfigurationManager.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IO.FileSystem.AccessControl.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.Data.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.AccessControl.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Cryptography.ProtectedData.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Permissions.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Principal.Windows.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Encodings.Web.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Json.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.ValueTuple.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CopyComplete
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll.config
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Datos.pdb
@@ -233,7 +155,6 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Deb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Datos\bin\Debug\Datos.pdb
@@ -787,3 +708,82 @@ C:\Users\Sebas\Desktop\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CoreCompi
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CopyComplete
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Datos.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Core.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Identity.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Data.SqlClient.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Buffers.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IO.FileSystem.AccessControl.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.Data.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.AccessControl.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Permissions.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Json.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.ValueTuple.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Core.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Azure.Identity.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Data.SqlClient.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Logging.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Protocols.OpenIdConnect.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Buffers.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.IO.FileSystem.AccessControl.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Memory.Data.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.AccessControl.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Cryptography.ProtectedData.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Permissions.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Text.Json.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\System.ValueTuple.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Datos\obj\Debug\Datos.pdb

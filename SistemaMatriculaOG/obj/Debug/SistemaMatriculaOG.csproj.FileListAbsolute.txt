@@ -15,23 +15,6 @@ C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-S
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.AssemblyReference.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CoreCompileInputs.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.AssemblyReference.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CoreCompileInputs.cache
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
@@ -100,8 +83,6 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatric
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll.config
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.pdb
@@ -578,6 +559,9 @@ C:\Users\Sebas\Desktop\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMa
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\SistemaMatriculaOG.pdb
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.exe.config
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\csc.rsp
@@ -627,3 +611,19 @@ C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\vbc.rsp
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe
 C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Negocio.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\bin\Datos.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.AssemblyReference.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.csproj.CopyComplete
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\SistemaMatriculaOG\obj\Debug\SistemaMatriculaOG.pdb

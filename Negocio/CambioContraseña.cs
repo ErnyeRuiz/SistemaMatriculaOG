@@ -53,7 +53,7 @@ namespace Negocio
             }
             catch (Exception)
             {
-                throw;
+                return "Usuario no encontrado";
             }
         }
     }

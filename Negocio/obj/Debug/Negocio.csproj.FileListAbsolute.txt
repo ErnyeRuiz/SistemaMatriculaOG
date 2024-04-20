@@ -10,18 +10,6 @@ C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-S
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Negocio\obj\Debug\Negocio.dll
 C:\Users\Sebas\Desktop\rAMA2\SistemaMatriculaOG-Sebas-Rama2\SistemaMatriculaOG-Sebas-Rama2\Negocio\obj\Debug\Negocio.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.pdb
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll
@@ -36,8 +24,6 @@ C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\obj\D
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
 C:\Users\Ernye\Documents\ProyectoMatriculaOG\V3\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
-C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
 C:\Users\Ernye\OneDrive\Documentos\New folder (2)\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
@@ -136,3 +122,17 @@ C:\Users\Sebas\Desktop\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll.config
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.pdb
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
 C:\Users\Sebas\Desktop\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.dll
+C:\Users\Sebas\Desktop\Proyecto admin proyectos informaticos\SistemaMatriculaOG\Negocio\obj\Debug\Negocio.pdb
