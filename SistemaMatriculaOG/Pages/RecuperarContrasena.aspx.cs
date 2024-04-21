@@ -34,7 +34,7 @@ namespace SistemaMatriculaOG
             if (estudiante != null) {
                 //Validamos que haya hecho su primer inicio de sesion
                 CambioContraseña con = new CambioContraseña();
-                string EstadoPrimerIngreso = con.ValidarPrimerIngreso(estudiante.CedulaEstudiante);
+                string EstadoPrimerIngreso = con.ValidarPrimerIngreso(Cedula);
 
                 if (EstadoPrimerIngreso == "1") //1 si ya iniciado sesion al menos una vez
                 {
